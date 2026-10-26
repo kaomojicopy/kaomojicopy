@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kaomojicopy.github.io/sitemap.xml

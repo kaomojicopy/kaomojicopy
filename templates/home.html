@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f8f5ee" />
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="color-scheme" content="light dark" />
+  {{meta}}
+  <script>try{var t=localStorage.getItem("kaomoji-copy-theme");if(!t&&window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)t="dark";if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+{{header}}
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR LITTLE CORNER OF THE INTERNET</div>
+        <h1>A little face<br>for <em>every</em> feeling.</h1>
+        <p class="hero-description">Find expressive kaomoji for happy moments, soft hearts, sleepy moods, and everyday chats. Search by feeling, tap a face to copy it, and save the ones you love.</p>
+        <div class="search-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="Search by mood, expression, or feeling..." autocomplete="off" aria-label="Search kaomoji" />
+          <kbd>↵</kbd>
+        </div>
+        <div class="hero-foot"><span><span class="sparkle">✳</span> Copy with one click</span><span><span class="sparkle">♡</span> Save your favorites on this device</span></div>
+      </div>
+      <div class="hero-art" aria-label="Featured kaomoji">
+        <span class="art-spark s1">✳</span><span class="art-spark s2">✦</span><span class="art-spark s3">✧</span>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-face hero-face-main">(˶ᵔ ᵕ ᵔ˶)</div>
+        <div class="floating-note note-top">made with ♡</div>
+        <div class="floating-note note-bottom">hi, friend!</div>
+        <div class="mini-face mini-one">(˶˃ ᵕ ˂˶)</div><div class="mini-face mini-two">૮ ˶ᵔ ᵕ ᵔ˶ ა</div>
+      </div>
+      <div class="hero-stamp"><span>THE INTERNET'S</span><strong>HAPPIER<br>PLACE ☻</strong></div>
+    </section>
+
+    <section class="mood-section shell" id="explore">
+      <div class="section-heading"><div><p class="eyebrow">WHAT'S THE VIBE?</p><h2>Pick your mood.</h2></div><button class="text-link" id="clear-filters" type="button">See everything <span>↗</span></button></div>
+      <div class="mood-grid" id="mood-grid">{{moods}}</div>
+    </section>
+
+    <section class="browse-section shell">
+      <div class="section-heading browse-heading"><div><p class="eyebrow">THE GOOD STUFF</p><h2 id="results-title">Crowd favorites <span class="heading-doodle">✳</span></h2><p class="section-subtitle" id="results-subtitle">Browse expressions by feeling, search by meaning, or choose a face that fits your message.</p></div><div class="sort-wrap"><label for="sort-select">Sort by</label><select id="sort-select"><option value="popular">Popular</option><option value="az">A–Z (by name)</option><option value="new">Recently added</option></select></div></div>
+      <div class="browse-layout">
+        <aside class="sidebar" aria-label="Browse by category">{{side}}<div class="sidebar-tip"><span>♡</span><strong>A little tip</strong><p>Tap any face to copy it. Hit the heart to keep it close.</p></div></aside>
+        <div class="results-area"><div class="results-meta"><span id="result-count">{{count}} little faces</span><a class="text-link hidden" id="full-link" href="#">Open the full page ↗</a><span class="copy-hint">tap a card to copy ↗</span></div><div class="kaomoji-grid" id="kaomoji-grid" data-page="home">
+{{cards}}
+        </div><div class="empty-state hidden" id="empty-state"><span>૮ ˶ᵔ ᵕ ᵔ˶ ა</span><h3>No faces found just yet</h3><p>Try another mood or search term.</p><button class="button-outline" id="reset-search" type="button">Clear search</button></div><div class="load-more-wrap"><button class="button-outline" id="load-more" type="button">Show me more <span>↓</span></button></div></div>
+      </div>
+    </section>
+
+    <section class="collections-section" id="collections"><div class="shell"><div class="section-heading"><div><p class="eyebrow">A MOODBOARD FOR YOUR MOOD</p><h2>Little collections, big energy.</h2></div><span class="hand-note">curated with care <span>♡</span></span></div><div class="collection-grid">
+      <a class="collection-card collection-happy" href="kaomoji/happy.html"><span class="collection-tag">01 / GOOD VIBES</span><span class="collection-art">(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</span><span class="collection-title">A little dose of happy</span><span class="collection-bottom">For your sunshine days <span>↗</span></span></a>
+      <a class="collection-card collection-cozy" href="kaomoji/sleepy.html"><span class="collection-tag">02 / SLOW DOWN</span><span class="collection-art">( ᴗ˳ᴗ) zZ</span><span class="collection-title">Your cozy era</span><span class="collection-bottom">Soft, sleepy &amp; unbothered <span>↗</span></span></a>
+      <a class="collection-card collection-love" href="kaomoji/love.html"><span class="collection-tag">03 / SOFT HEART</span><span class="collection-art">♡(˃͈ દ ˂͈ ༶ )</span><span class="collection-title">Love notes &amp; heart eyes</span><span class="collection-bottom">A little extra affection <span>↗</span></span></a>
+    </div></div></section>
+
+    <section class="favorites-section shell" id="favorites"><div class="section-heading"><div><p class="eyebrow">YOUR PERSONAL LITTLE CORNER</p><h2>Saved with love. <span class="heading-doodle">♡</span></h2><p class="section-subtitle">Your favorite faces, all in one place on this device.</p></div></div><div id="favorites-grid" class="kaomoji-grid favorites-grid"></div><div class="favorites-empty" id="favorites-empty"><span>♡</span><p>No favorites yet. Tap the little heart on any face to save it here.</p></div></section>
+
+    <section class="closing-cta shell"><div><p class="eyebrow">THAT'S THE SPIRIT</p><h2>Whatever you're feeling,<br>there's a face for that.</h2></div><button id="surprise-me" class="surprise-button" type="button">Surprise me <span>✳</span></button><div class="cta-face" id="surprise-face">(˶ᵔ ᵕ ᵔ˶)</div></section>
+  </main>
+{{footer}}
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

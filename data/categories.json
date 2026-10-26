@@ -1,0 +1,360 @@
+[
+ {
+  "slug": "happy",
+  "label": "Happy",
+  "group": "Browse by",
+  "icon": "☀",
+  "side": "Happy & excited",
+  "mood": "Happy",
+  "keywords": "smile joy glad excited cheerful cheering yay",
+  "title": "Happy Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste happy kaomoji for good news, small wins, and great moods. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Happy kaomoji are text faces for good news, small wins, and no reason at all. Tap any face to copy it, then paste it into a chat, bio, or comment.\n\nBright eyes, open mouths, and little sparkles do most of the work, so these faces read as cheerful even without a message. Save the ones you like with the heart.",
+  "faq": [
+   {
+    "q": "How do I copy a happy kaomoji?",
+    "a": "Tap the face or the Copy button. It goes to your clipboard, ready to paste anywhere."
+   },
+   {
+    "q": "Do happy kaomoji work on every phone?",
+    "a": "Yes. They are plain text characters, so they work in Discord, WhatsApp, Instagram, and most other apps."
+   },
+   {
+    "q": "Why do the sparkles look different on my device?",
+    "a": "Each device draws special symbols with its own fonts, so spacing and shapes can differ slightly. The text you paste is the same."
+   }
+  ]
+ },
+ {
+  "slug": "love",
+  "label": "Love",
+  "group": "Browse by",
+  "icon": "♡",
+  "side": "Love & affection",
+  "mood": "In love",
+  "keywords": "hug heart kiss cuddle affection",
+  "title": "Heart & Love Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste heart kaomoji and love text faces for hugs, kisses, crushes, and sweet messages. Tap a face to copy it.",
+  "intro": "Love kaomoji are for messages that need a bit more warmth than words alone. Use them to send a hug, say good morning to a partner, or tell a friend you are thinking of them.\n\nEvery face here is plain text, so it pastes straight into chats, captions, and bios. Tap a face to copy it, or tap the heart to keep it in your favorites.",
+  "faq": [
+   {
+    "q": "Which kaomoji are best for sending a hug?",
+    "a": "Faces with arms, such as (づ｡◕‿‿◕｡)づ, look like a hug in most chats. Try a few and see which one fits your style."
+   },
+   {
+    "q": "Can I use love kaomoji with friends and family?",
+    "a": "Yes. Hearts and hugs are not only for couples. Many people use them to cheer up a friend, thank a family member, or say well done."
+   },
+   {
+    "q": "Why does a kaomoji look different on my phone?",
+    "a": "Each device draws special symbols with its own fonts, so spacing and shapes can differ a little. The text itself stays the same when you paste it."
+   }
+  ]
+ },
+ {
+  "slug": "cute",
+  "label": "Cute",
+  "group": "Browse by",
+  "icon": "୨୧",
+  "side": "Cute & kawaii",
+  "mood": "Extra cute",
+  "keywords": "kawaii adorable sweet blush blushing",
+  "title": "Cute Kaomoji & Kawaii Faces Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste cute kaomoji and kawaii text faces for chats, bios, and comments. Tap any face to copy it. Free, no sign-up.",
+  "intro": "Cute kaomoji, often called kawaii faces, lean on big eyes, soft cheeks, and little decorations like flowers and sparkles. They suit a friendly message, a social bio, or a caption that needs a gentle touch.\n\nPick a face, tap to copy, and paste it anywhere you can type text. Save your favorites with the heart so they are easy to find next time.",
+  "faq": [
+   {
+    "q": "What does kawaii mean?",
+    "a": "Kawaii is a Japanese word for cute or lovable. In kaomoji it usually means round eyes, blushing cheeks, and soft shapes."
+   },
+   {
+    "q": "Where can I paste cute kaomoji?",
+    "a": "Anywhere that accepts plain text: messages, comments, bios, captions, notes, and most games and apps."
+   },
+   {
+    "q": "Can I use two faces in one message?",
+    "a": "Yes. Put a space between them or add a short word. Very long chains can look messy, so a little goes a long way."
+   }
+  ]
+ },
+ {
+  "slug": "sad",
+  "label": "Sad",
+  "group": "Browse by",
+  "icon": "☁",
+  "side": "Sad & crying",
+  "mood": "A little sad",
+  "keywords": "cry crying tears upset worried hug",
+  "title": "Sad & Crying Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste sad kaomoji and crying text faces for tough days and soft moods. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Sad kaomoji give you a soft way to say you are having a rough day. A small teary face can tell a friend how you feel without a long explanation, and it can also be a gentle way to say sorry.\n\nTap a face to copy it and paste it into your message. They work for light moments too, like being sad about missing lunch.",
+  "faq": [
+   {
+    "q": "When is it okay to use a sad kaomoji?",
+    "a": "Whenever you want to show feeling in a casual chat. For serious news, a few honest words usually say more than a face."
+   },
+   {
+    "q": "What is the difference between crying and sad faces?",
+    "a": "Crying faces usually show tears with marks like ; or T, while sad faces use droopy eyes and a small frown. Pick the one that matches your mood."
+   },
+   {
+    "q": "How do I comfort a friend with a kaomoji?",
+    "a": "Look for faces with a hug or soft eyes on the sad and love pages, and add one short kind line next to it."
+   }
+  ]
+ },
+ {
+  "slug": "sleepy",
+  "label": "Sleepy",
+  "group": "Browse by",
+  "icon": "☾",
+  "side": "Sleepy & chill",
+  "mood": "Sleepy",
+  "keywords": "tired sleep nap zzz cozy chill",
+  "title": "Sleepy & Sleeping Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste sleepy kaomoji for naps, tired moods, and goodnight messages. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Sleepy kaomoji are for naps, late nights, and mornings that start too early. Closed eyes and little zzz marks do most of the work, so these faces are quick to read.\n\nThey are handy for saying good night, telling friends you are logging off, or showing you are tired. Tap a face to copy it and paste it anywhere.",
+  "faq": [
+   {
+    "q": "How do I write a good night message with a kaomoji?",
+    "a": "Add a sleepy face after a short line like good night or see you tomorrow. Keeping it simple works best."
+   },
+   {
+    "q": "What does zzz mean in a message?",
+    "a": "It is a common way to show someone sleeping, borrowed from comics."
+   },
+   {
+    "q": "Can I use these on Discord or WhatsApp?",
+    "a": "Yes. They are plain text, so they paste into both."
+   }
+  ]
+ },
+ {
+  "slug": "sassy",
+  "label": "Sassy",
+  "group": "Browse by",
+  "icon": "✷",
+  "side": "Sassy & silly",
+  "mood": "Sassy",
+  "keywords": "smug shrug meh unimpressed silly confident",
+  "title": "Shrug & Sassy Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste shrug, smug, and sassy kaomoji for jokes, side-eye, and playful replies. Tap a face to copy it.",
+  "intro": "Sassy kaomoji add attitude to a message: a smug grin, a raised eyebrow, a shrug that says whatever. They work best with people who already know your tone.\n\nTap a face to copy it. A short line plus one of these faces is usually enough.",
+  "faq": [
+   {
+    "q": "What is the shrug kaomoji?",
+    "a": "It is ¯\\_(ツ)_/¯, a classic face that means I do not know or whatever. You can copy it from this page."
+   },
+   {
+    "q": "Why does the shrug sometimes lose its arm?",
+    "a": "Some apps treat a backslash before an underscore as formatting and hide the backslash. Typing a second backslash, or pasting it inside a code block, usually fixes it."
+   },
+   {
+    "q": "Are sassy faces rude?",
+    "a": "Not usually, but tone depends on the situation. With friends they read as playful. In a work chat, a milder face is safer."
+   }
+  ]
+ },
+ {
+  "slug": "angry",
+  "label": "Angry",
+  "group": "More little things",
+  "icon": "✸",
+  "side": "Angry",
+  "keywords": "mad furious annoyed",
+  "title": "Angry & Table Flip Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste angry kaomoji and table flip text faces for annoyed, mad, and fed-up moments. Tap a face to copy it.",
+  "intro": "Angry kaomoji let you show frustration, from a small grumble to a full table flip. Most people use them jokingly, to say they are annoyed at a game, a long queue, or a Monday.\n\nTap a face to copy it. If you are upset with a real person, a calm sentence may work better than any face.",
+  "faq": [
+   {
+    "q": "What is the table flip kaomoji?",
+    "a": "It is (╯°□°）╯︵ ┻━┻, a face that throws a table in frustration. The matching ┬─┬ノ( º _ ºノ) puts the table back."
+   },
+   {
+    "q": "Can I use angry faces without sounding rude?",
+    "a": "Yes, if you pair them with a joking line. A face on its own can sound sharper than you mean it."
+   },
+   {
+    "q": "Why do some faces show empty boxes?",
+    "a": "Your device may not have a font for one of the symbols. Try another face, or update your system."
+   }
+  ]
+ },
+ {
+  "slug": "surprised",
+  "label": "Surprised",
+  "group": "More little things",
+  "icon": "!",
+  "side": "Surprised",
+  "keywords": "shock wow gasp",
+  "title": "Surprised & Shocked Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste surprised and shocked kaomoji for big reveals and wow moments. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Surprised kaomoji use wide eyes and open mouths to show shock, delight, or plain confusion. They are quick reactions for big news, funny twists, and moments when you do not know what to say.\n\nTap a face to copy it and paste it right after the news that surprised you.",
+  "faq": [
+   {
+    "q": "Which kaomoji shows shock?",
+    "a": "Faces with big round eyes, like (⊙_⊙), and a small open mouth read as shocked in almost any chat."
+   },
+   {
+    "q": "Can a surprised face also mean happy surprise?",
+    "a": "Yes. Add a sparkle or a heart next to it, or a few words like no way, to show it is good news."
+   },
+   {
+    "q": "Do these work in comments and captions?",
+    "a": "Yes. They are plain text, so they work anywhere you can type."
+   }
+  ]
+ },
+ {
+  "slug": "shy",
+  "label": "Shy",
+  "group": "More little things",
+  "icon": "◡",
+  "side": "Shy",
+  "keywords": "blush embarrassed",
+  "title": "Shy & Blushing Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste shy kaomoji and blushing text faces for crushes and bashful moments. Tap a face to copy it. Free.",
+  "intro": "Shy kaomoji show a blush, a nervous smile, or someone hiding behind their hands. Small slash marks on the cheeks usually stand for blush lines.\n\nThey are useful for taking a compliment, saying something a little bold, or admitting you are embarrassed. Tap a face to copy it.",
+  "faq": [
+   {
+    "q": "What do the slashes in a shy kaomoji mean?",
+    "a": "They stand for blush lines on the cheeks, a style that comes from manga."
+   },
+   {
+    "q": "When should I use a shy kaomoji?",
+    "a": "After a compliment, a confession, or an awkward moment. It tells the other person you are flustered, not upset."
+   },
+   {
+    "q": "Can I use shy faces for flirting?",
+    "a": "Yes, they are often used that way. Keep it light and match the other person's tone."
+   }
+  ]
+ },
+ {
+  "slug": "cats",
+  "label": "Cats",
+  "group": "More little things",
+  "icon": "ฅ",
+  "side": "Cats",
+  "keywords": "cat kitty kitten",
+  "title": "Cat Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste cat kaomoji and cute text kitties for chats, bios, and comments. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Cat kaomoji draw whiskers, ears, and paws with ordinary characters. Many use ^ for ears and = for whiskers, which gives them their classic look.\n\nThey fit pet posts, cozy messages, and anything that needs a little cat energy. Tap a cat to copy it, then paste it into your chat or caption.",
+  "faq": [
+   {
+    "q": "How are cat kaomoji drawn?",
+    "a": "Most are built from plain characters: a face in the middle, with ^ and = marks for ears and whiskers."
+   },
+   {
+    "q": "Can I use cat kaomoji in usernames?",
+    "a": "Many sites allow special characters in display names, but rules differ. Check the site before you save."
+   },
+   {
+    "q": "Is there a sleepy or grumpy cat?",
+    "a": "Yes, both are on this page. Look for the napping cat and the grumpy cat."
+   }
+  ]
+ },
+ {
+  "slug": "bears",
+  "label": "Bears",
+  "group": "More little things",
+  "icon": "ʕ",
+  "side": "Bears",
+  "keywords": "bear teddy",
+  "title": "Bear Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste bear kaomoji and cute teddy bear text faces. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Bear kaomoji use a small round nose and ear-like marks on both sides to look like a teddy. They feel warm and friendly, which makes them a good fit for hugs and cheerful messages.\n\nTap a bear to copy it and paste it anywhere you can type.",
+  "faq": [
+   {
+    "q": "What makes a bear kaomoji look like a bear?",
+    "a": "Usually a round nose symbol in the middle and curved marks on each side that look like ears."
+   },
+   {
+    "q": "Can I use a bear kaomoji to send a hug?",
+    "a": "Yes. Look for the bear with open arms, or add a short hug message next to any bear."
+   },
+   {
+    "q": "Do bear kaomoji work in every app?",
+    "a": "Almost always. The symbols are standard text, but a few older devices may show boxes for some of them."
+   }
+  ]
+ },
+ {
+  "slug": "bunnies",
+  "label": "Bunnies",
+  "group": "More little things",
+  "icon": "૮",
+  "side": "Bunnies",
+  "keywords": "bunny rabbit",
+  "title": "Bunny Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste bunny kaomoji and cute rabbit text faces for chats and bios. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Bunny kaomoji use symbols on both sides of a small face to look like ears or paws. They are soft and playful, a good fit for spring messages, cozy chats, and gentle jokes.\n\nTap a bunny to copy it, then paste it into your message.",
+  "faq": [
+   {
+    "q": "How do bunny kaomoji get their ears?",
+    "a": "Most place a special symbol on each side of the face so it looks like ears or little paws."
+   },
+   {
+    "q": "Are bunny kaomoji good for Easter?",
+    "a": "Yes, they are popular for spring and Easter greetings. Add a short message and you are done."
+   },
+   {
+    "q": "Why do some bunny faces look broken on my device?",
+    "a": "They use less common symbols that some fonts do not include. Try another bunny, or update your device fonts."
+   }
+  ]
+ },
+ {
+  "slug": "party",
+  "label": "Celebrations",
+  "group": "More little things",
+  "icon": "✺",
+  "side": "Celebrations",
+  "keywords": "birthday celebrate gift cheers party",
+  "title": "Party & Birthday Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste party, birthday, and celebration kaomoji for congrats and good news. Tap a face to copy it. Free.",
+  "intro": "Celebration kaomoji bring confetti energy to a message: raised arms, music notes, balloons, and a little cake. Use them for birthdays, congratulations, and wins big or small.\n\nTap a face to copy it and paste it next to your message.",
+  "faq": [
+   {
+    "q": "Which kaomoji is best for a birthday message?",
+    "a": "Pick a face with raised arms or a balloon, then add the person's name and a short wish."
+   },
+   {
+    "q": "Can I use emoji together with kaomoji?",
+    "a": "Yes. A few faces here already include a balloon or cake. Keep the message simple so it stays easy to read."
+   },
+   {
+    "q": "Do celebration kaomoji work in group chats?",
+    "a": "Yes. They are plain text, so everyone sees the same face, though fonts can change the spacing a little."
+   }
+  ],
+  "h1": "Celebration kaomoji"
+ },
+ {
+  "slug": "greetings",
+  "label": "Greetings",
+  "group": "More little things",
+  "icon": "☺",
+  "side": "Greetings",
+  "keywords": "hi hello wave morning bye",
+  "title": "Hello & Wave Kaomoji Copy and Paste | Kaomoji Copy",
+  "description": "Copy and paste hello, wave, and goodbye kaomoji for greetings and sign-offs. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Greeting kaomoji start or end a chat with a smile. Many end in ノ, which looks like a raised hand, so they read as a wave.\n\nUse them for good morning, a quick hello, or a friendly goodbye. Tap a face to copy it and paste it into your message.",
+  "faq": [
+   {
+    "q": "What does the ノ at the end of a face mean?",
+    "a": "It looks like a raised hand, so the face appears to wave."
+   },
+   {
+    "q": "Is there a kaomoji for good night?",
+    "a": "Yes. Check the good night face on this page, or the sleepy page for more."
+   },
+   {
+    "q": "Can I use greeting kaomoji at work?",
+    "a": "In a friendly team chat, yes. For formal emails, plain words are safer."
+   }
+  ],
+  "h1": "Greeting kaomoji"
+ }
+]
