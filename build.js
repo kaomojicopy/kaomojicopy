@@ -22,7 +22,14 @@ wr("assets/js/data.js",
   "window.KAO_LABELS=" + JSON.stringify(labels) + ";\nwindow.KAO_KEYWORDS=" + JSON.stringify(kw) + ";\n" +
   "window.KAO=[\n" + faces.map(f => JSON.stringify(f)).join(",\n") + "\n];\n");
 
-const base = (site.siteUrl || "").replace(/\/+$/, "");
+/* Production address. One source of truth: data/site.json "siteUrl", or the SITE_URL environment variable (which wins), e.g.
+   SITE_URL=https://kaomoji.example.com node build.js */
+const base = String(process.env.SITE_URL || site.siteUrl || "").trim().replace(/\/+$/, "");
+if (base) {
+  let u; try { u = new URL(base); } catch (e) { console.error('Invalid siteUrl "' + base + '". Use a full address like https://kaomoji.example.com'); process.exit(1); }
+  if (u.search || u.hash) { console.error("siteUrl must not contain ? or #: " + base); process.exit(1); }
+  if (u.protocol !== "https:") console.warn("Warning: siteUrl is not https. Production sites should use https://");
+}
 const basePath = base ? new URL(base).pathname.replace(/\/?$/, "/") : "/";
 const year = site.year || new Date().getFullYear();
 const part = (name, root, extra) => fill(rd("templates/" + name + ".html"), Object.assign({ root, year, explore_cls: "" }, extra || {}));
@@ -57,9 +64,12 @@ const emit = (rel, html) => {
   if (!lm[rel] || lm[rel].h !== h) lm[rel] = { h, d: today };
 };
 
-const card = f => `          <article class="kaomoji-card" data-text="${esc((f[2] + " " + f[0]).toLowerCase())}"><button class="favorite-btn" type="button" data-favorite="${esc(f[0])}" aria-pressed="false" aria-label="Add ${esc(f[0])} to favorites">♡</button><button class="kaomoji-face" type="button" data-copy="${esc(f[0])}" aria-label="Copy ${esc(f[0])}">${esc(f[0])}</button><span class="card-tag">${esc(f[2])}</span><span class="card-copy" aria-hidden="true">copy ↗</span></article>`;
+const card = (f, extra) => `          <article class="kaomoji-card" data-text="${esc((f[2] + " " + f[0] + " " + (extra || "")).toLowerCase())}"><button class="favorite-btn" type="button" data-favorite="${esc(f[0])}" aria-pressed="false" aria-label="Add ${esc(f[0])} to favorites">♡</button><button class="kaomoji-face" type="button" data-copy="${esc(f[0])}" aria-label="Copy ${esc(f[0])}">${esc(f[0])}</button><span class="card-tag">${esc(f[2])}</span><span class="card-copy" aria-hidden="true">copy ↗</span></article>`;
 
 /* homepage */
+const homeFaq = JSON.parse(rd("data/home.json")).faq;
+const faqLd = list => `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage",
+  mainEntity: list.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) })}</script>`;
 const top = faces.slice().sort((a, b) => b[3] - a[3]).slice(0, 12);
 const moods = `<button class="mood-card selected" data-mood="all" type="button"><span class="mood-emoji">✳</span><span>All the feels</span></button>` +
   cats.filter(c => c.mood).map(c => `<button class="mood-card" data-mood="${c.slug}" type="button"><span class="mood-emoji">${esc(c.icon)}</span><span>${esc(c.mood)}</span></button>`).join("");
@@ -71,7 +81,10 @@ cats.forEach(c => {
 });
 emit("index.html", fill(rd("templates/home.html"), {
   meta: meta(site.homeTitle, site.homeDescription, "/"), title: esc(site.homeTitle), description: esc(site.homeDescription), header: part("header", "", { explore_cls: "nav-active" }), footer: part("footer", ""),
-  moods, side, cards: top.map(card).join("\n"), count: faces.length
+  moods, side, cards: top.map(card).join("\n"), count: faces.length,
+  catlinks: cats.map(c => `<a href="kaomoji/${c.slug}.html">${esc(c.label)}</a>`).join(""),
+  faq: homeFaq.map(x => `<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join(""),
+  jsonld: faqLd(homeFaq)
 }));
 
 /* category pages */
@@ -88,7 +101,7 @@ cats.forEach(c => {
   const faq = c.faq || [];
   emit(`kaomoji/${c.slug}.html`, fill(tpl, {
     root: "../", title: esc(title), description: esc(desc), h1: esc(c.h1 || `${c.label} kaomoji`),
-    label: esc(c.label), label_lc: esc(lc), intro, count: list.length, cards: list.map(card).join("\n"),
+    label: esc(c.label), label_lc: esc(lc), intro, count: list.length, cards: list.map(f => card(f, c.label + " " + (c.keywords || ""))).join("\n"),
     pills: cats.map(o => `<a href="${o.slug}.html"${o.slug === c.slug ? ' aria-current="page"' : ""}>${esc(o.label)}</a>`).join(""),
     faq: faq.length ? `<section class="shell page-sec faq"><h2>Questions</h2>` + faq.map(x => `<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join("") + `</section>` : "",
     jsonld: faq.length ? `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage",
@@ -97,10 +110,28 @@ cats.forEach(c => {
   }));
 });
 
+
+/* info pages: about, contact, privacy, terms */
+const infoPages = [
+  ["about", "About Kaomoji Copy | Free Kaomoji Copy and Paste", "About Kaomoji Copy, a free site for finding, copying, and pasting kaomoji text faces sorted by mood.", "About"],
+  ["contact", "Contact Kaomoji Copy", "Contact Kaomoji Copy with questions, bug reports, or ideas for new kaomoji and collections.", "Contact"],
+  ["privacy", "Privacy Policy | Kaomoji Copy", "How Kaomoji Copy handles information: no accounts, favorites stored in your browser, and no ads or analytics at this time.", "Privacy Policy"],
+  ["terms", "Terms of Use | Kaomoji Copy", "Simple terms for using Kaomoji Copy, a free kaomoji copy and paste site.", "Terms of Use"]
+];
+const contactBlock = [
+  site.contactEmail ? `      <p>Email: <a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a></p>` : "",
+  site.githubRepo ? `      <p>You can also open an issue on <a href="${esc(site.githubRepo)}/issues">our GitHub page</a>.</p>` : ""
+].filter(Boolean).join("\n");
+infoPages.forEach(([slug, title, desc, label]) => {
+  const content = fill(rd(`templates/pages/${slug}.html`), { name: site.name || "Kaomoji Copy", count: faces.length, catcount: cats.length, contact_block: contactBlock });
+  emit(`${slug}.html`, fill(rd("templates/page.html"), { title: esc(title), description: esc(desc), meta: meta(title, desc, `/${slug}.html`),
+    header: part("header", ""), footer: part("footer", ""), crumb: esc(label), h1: esc(label === "About" ? "About Kaomoji Copy" : label), content }));
+});
+
 /* GitHub Pages extras */
 wr(".nojekyll", "");
 if (base) {
-  const pages = [["index.html", base + "/"]].concat(cats.map(c => [`kaomoji/${c.slug}.html`, `${base}/kaomoji/${c.slug}.html`]));
+  const pages = [["index.html", base + "/"]].concat(cats.map(c => [`kaomoji/${c.slug}.html`, `${base}/kaomoji/${c.slug}.html`]), infoPages.map(p => [`${p[0]}.html`, `${base}/${p[0]}.html`]));
   wr("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     pages.map(([f, u]) => `  <url><loc>${esc(u)}</loc><lastmod>${lm[f].d}</lastmod></url>`).join("\n") + "\n</urlset>\n");
 }

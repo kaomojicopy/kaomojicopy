@@ -1,0 +1,28 @@
+{
+ "faq": [
+  {
+   "q": "Is Kaomoji Copy free to use?",
+   "a": "Yes. Every face is free to copy and paste, and there is nothing to sign up for."
+  },
+  {
+   "q": "How do I copy a kaomoji?",
+   "a": "Tap or click any face. It is copied to your clipboard and a small message confirms it. Then paste it where you want it, with Ctrl+V on a computer or by long-pressing and choosing Paste on a phone."
+  },
+  {
+   "q": "What is the difference between kaomoji and emoji?",
+   "a": "Emoji are small pictures. Kaomoji are faces built from ordinary text characters and symbols, and they are read upright instead of tilted on their side like :-)."
+  },
+  {
+   "q": "Where are my favorites saved?",
+   "a": "In your own browser, on the device you are using. There is no account, so favorites do not follow you to another device, and clearing your browser data removes them."
+  },
+  {
+   "q": "Why does a face look different or show empty boxes on my device?",
+   "a": "Kaomoji use many different symbols, and each phone or computer draws them with its own fonts. If a symbol is missing from your device's fonts, it can look slightly different or show as a box. Another face from the same collection usually works fine."
+  },
+  {
+   "q": "Can I use kaomoji on my phone?",
+   "a": "Yes. The site works on iPhone, Android, and desktop browsers. Tap a face to copy it, then paste it into any app that accepts text."
+  }
+ ]
+}

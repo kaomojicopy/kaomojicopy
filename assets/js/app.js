@@ -105,15 +105,22 @@
   }
 
   var grid = $("#kaomoji-grid");
+  /* search words: ignore filler words people add, like "cute kaomoji copy and paste" */
+  var STOP = { kaomoji: 1, kaomojis: 1, face: 1, faces: 1, emoticon: 1, emoticons: 1, emoji: 1, text: 1, copy: 1, paste: 1, and: 1, a: 1, the: 1, for: 1, of: 1, in: 1, on: 1, to: 1, my: 1, bio: 1, bios: 1, profile: 1, caption: 1, captions: 1, comment: 1, comments: 1, chat: 1, instagram: 1, tiktok: 1, discord: 1, whatsapp: 1, twitter: 1, snapchat: 1, facebook: 1, reddit: 1, youtube: 1, tumblr: 1, twitch: 1 };
+  var words = function (s) {
+    return s.toLowerCase().split(/\s+/).map(function (w) { return w.replace(/^[.,!?;:"'“”‘’]+|[.,!?;:"'“”‘’]+$/g, ""); }).filter(function (w) { return w && !STOP[w]; });
+  };
 
   /* ---------- category pages: instant filter ---------- */
   var filter = $("#filter");
   if (filter && grid) {
     var cards = $$(".kaomoji-card"), ft;
+    var clearBtn = $("#clear-filter");
+    if (clearBtn) clearBtn.addEventListener("click", function () { filter.value = ""; filter.dispatchEvent(new Event("input")); filter.focus(); });
     filter.addEventListener("input", function () {
-      var q = filter.value.trim().toLowerCase(), n = 0;
+      var qw = words(filter.value), n = 0;
       cards.forEach(function (c) {
-        var show = !q || c.dataset.text.indexOf(q) > -1;
+        var show = qw.every(function (w) { return c.dataset.text.indexOf(w) > -1; });
         c.hidden = !show; if (show) n++;
       });
       $("#shown").textContent = n;
@@ -134,11 +141,11 @@
         '<span class="card-tag">' + esc(f.n) + '</span><span class="card-copy" aria-hidden="true">copy ↗</span></article>';
     };
     var list = function () {
-      var words = term ? term.split(/\s+/) : [];
+      var qw = words(term);
       var r = faces.filter(function (f) {
         if (mood !== "all" && f.c !== mood) return false;
         var hay = (f.t + " " + f.n + " " + L[f.c] + " " + f.c + " " + (KW[f.c] || "")).toLowerCase();
-        return words.every(function (w) { return hay.indexOf(w) > -1; });
+        return qw.every(function (w) { return hay.indexOf(w) > -1; });
       });
       if (sort === "az") r.sort(function (a, b) { return a.n.localeCompare(b.n); });
       else if (sort === "new") r.sort(function (a, b) { return b.i - a.i; });
@@ -152,7 +159,7 @@
     };
     var render = function (say) {
       var r = list();
-      $("#results-title").innerHTML = (term ? "Search results" : mood === "all" ? "Crowd favorites" : esc(L[mood]) + " faces") + ' <span class="heading-doodle">✳</span>';
+      $("#results-title").innerHTML = (term ? "Search results" : mood === "all" ? "Featured faces" : esc(L[mood]) + " faces") + ' <span class="heading-doodle">✳</span>';
       $("#results-subtitle").textContent = term ? "Little faces matching “" + term + "”." : "Little expressions, ready to copy and make your own.";
       $("#result-count").textContent = r.length + " little face" + (r.length === 1 ? "" : "s");
       grid.innerHTML = r.slice(0, visible).map(card).join("");

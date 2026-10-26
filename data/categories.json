@@ -17,7 +17,7 @@
    },
    {
     "q": "Do happy kaomoji work on every phone?",
-    "a": "Yes. They are plain text characters, so they work in Discord, WhatsApp, Instagram, and most other apps."
+    "a": "Most do. They are plain text characters, so they paste into Discord, WhatsApp, Instagram, and most other apps. A few symbols may look different, or show as a box, depending on your device's fonts and the app."
    },
    {
     "q": "Why do the sparkles look different on my device?",
@@ -58,7 +58,7 @@
   "icon": "୨୧",
   "side": "Cute & kawaii",
   "mood": "Extra cute",
-  "keywords": "kawaii adorable sweet blush blushing",
+  "keywords": "kawaii adorable sweet blush blushing aesthetic soft pastel",
   "title": "Cute Kaomoji & Kawaii Faces Copy and Paste | Kaomoji Copy",
   "description": "Copy and paste cute kaomoji and kawaii text faces for chats, bios, and comments. Tap any face to copy it. Free, no sign-up.",
   "intro": "Cute kaomoji, often called kawaii faces, lean on big eyes, soft cheeks, and little decorations like flowers and sparkles. They suit a friendly message, a social bio, or a caption that needs a gentle touch.\n\nPick a face, tap to copy, and paste it anywhere you can type text. Save your favorites with the heart so they are easy to find next time.",
@@ -125,7 +125,7 @@
    },
    {
     "q": "Can I use these on Discord or WhatsApp?",
-    "a": "Yes. They are plain text, so they paste into both."
+    "a": "Yes. They are plain text, so they paste into both, though a symbol may look a little different depending on the device."
    }
   ]
  },
@@ -136,7 +136,7 @@
   "icon": "✷",
   "side": "Sassy & silly",
   "mood": "Sassy",
-  "keywords": "smug shrug meh unimpressed silly confident",
+  "keywords": "smug shrug meh unimpressed silly confident confused",
   "title": "Shrug & Sassy Kaomoji Copy and Paste | Kaomoji Copy",
   "description": "Copy and paste shrug, smug, and sassy kaomoji for jokes, side-eye, and playful replies. Tap a face to copy it.",
   "intro": "Sassy kaomoji add attitude to a message: a smug grin, a raised eyebrow, a shrug that says whatever. They work best with people who already know your tone.\n\nTap a face to copy it. A short line plus one of these faces is usually enough.",
@@ -161,7 +161,7 @@
   "group": "More little things",
   "icon": "✸",
   "side": "Angry",
-  "keywords": "mad furious annoyed",
+  "keywords": "mad furious annoyed table flip tableflip",
   "title": "Angry & Table Flip Kaomoji Copy and Paste | Kaomoji Copy",
   "description": "Copy and paste angry kaomoji and table flip text faces for annoyed, mad, and fed-up moments. Tap a face to copy it.",
   "intro": "Angry kaomoji let you show frustration, from a small grumble to a full table flip. Most people use them jokingly, to say they are annoyed at a game, a long queue, or a Monday.\n\nTap a face to copy it. If you are upset with a real person, a calm sentence may work better than any face.",
@@ -201,7 +201,7 @@
    },
    {
     "q": "Do these work in comments and captions?",
-    "a": "Yes. They are plain text, so they work anywhere you can type."
+    "a": "In most apps, yes. They are plain text, so they paste into comments and captions, though a few symbols can look slightly different depending on the app and your device."
    }
   ]
  },
@@ -326,7 +326,7 @@
    },
    {
     "q": "Do celebration kaomoji work in group chats?",
-    "a": "Yes. They are plain text, so everyone sees the same face, though fonts can change the spacing a little."
+    "a": "Yes. They are plain text, so they paste into group chats, though fonts can change how a face looks, so it may not appear identical to everyone."
    }
   ],
   "h1": "Celebration kaomoji"
