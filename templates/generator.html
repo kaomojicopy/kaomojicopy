@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f8f5ee" />
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="color-scheme" content="light dark" />
+  {{meta}}
+  <script>try{var t=localStorage.getItem("kaomoji-copy-theme");if(!t&&window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)t="dark";if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+{{header}}
+  <main id="top">
+    <div class="shell page-doc">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / {{crumb}}</nav>
+      <h1>{{h1}}</h1>
+      <p class="lead">{{lead}}</p>
+      <section class="gen" aria-label="Kaomoji generator">
+        <div class="gen-preview">
+          <div id="gen-face" class="gen-face">(◕‿◕)</div>
+          <div class="gen-actions">
+            <button id="gen-copy" class="gen-btn gen-primary" type="button" data-copy="(◕‿◕)">Copy</button>
+            <button id="gen-fav" class="gen-btn" type="button" data-favorite="(◕‿◕)" aria-pressed="false" aria-label="Add to favorites" title="Save to favorites">♡</button>
+            <button id="gen-random-parts" class="gen-btn" type="button">Randomize parts</button>
+            <button id="gen-remove-decor" class="gen-btn" type="button">Remove decoration</button>
+            <button id="gen-clear" class="gen-btn" type="button">Clear all</button>
+            <button id="gen-reset" class="gen-btn" type="button">Reset</button>
+          </div>
+          <p id="gen-status" class="gen-status"></p>
+        </div>
+        <div id="gen-controls" class="gen-controls"></div>
+      </section>
+      <section class="gen-random">
+        <h2>Random kaomoji</h2>
+        <div class="gen-random-row">
+          <button id="gen-random-lib" class="gen-btn gen-primary" type="button">Random kaomoji</button>
+          <div id="gen-lib-face" class="gen-face small" aria-live="polite"></div>
+          <button id="gen-lib-copy" class="gen-btn" type="button" data-copy="" hidden>Copy</button>
+        </div>
+      </section>
+{{content}}
+    </div>
+  </main>
+{{footer}}
+<script src="assets/js/app.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/parts.js"></script>
+<script src="assets/js/generator.js"></script>
+</body>
+</html>

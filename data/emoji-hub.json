@@ -1,0 +1,51 @@
+{
+ "title": "Emoji Copy and Paste: Love, Crying, Happy, Cat and More",
+ "description": "Copy and paste emoji sorted by feeling: love and heart, crying, happy, cat, angry, tired and more. See what each emoji means. Free, no sign-up.",
+ "h1": "Emoji copy and paste",
+ "intro": "Find the emoji you need by feeling, tap it to copy, and paste it anywhere. This page shows the most popular emoji, and each collection below explains what the emoji mean and when to use them.\n\nLooking for text faces instead? Our [kaomoji collections](/index.html) have hundreds of Japanese-style faces.",
+ "sections": [
+  {
+   "h": "How to copy and paste emoji",
+   "p": "Emoji copy paste is simple here. Tap an emoji to copy it. Then paste it into your message with a long press on a phone, or Ctrl+V on Windows and Cmd+V on a Mac. You can also tap the heart on any card to save it to your favorites on this device."
+  },
+  {
+   "h": "Emoji vs kaomoji",
+   "p": "Emoji are small pictures that come from the Unicode standard, and each company draws them in its own style. Kaomoji are Japanese-style faces made from text symbols, so they look the same everywhere. Many people use both. See [what is kaomoji](/what-is-kaomoji.html) for the difference, or try the [kaomoji generator](/kaomoji-generator.html)."
+  },
+  {
+   "h": "Why emoji look different on each device",
+   "p": "Apple, Google, Samsung, and others each design their own emoji, so the same emoji can look different between an iPhone and an Android phone. The meaning stays the same. Very new emoji may show as a box on old devices, which is why this site mostly uses well-supported emoji."
+  },
+  {
+   "h": "Tips for using emoji well",
+   "list": [
+    "Use one or two emoji, not a long chain.",
+    "Match the feeling to the message, and add a word if the tone might be unclear.",
+    "Check slang meanings first, since emoji can mean different things to different people.",
+    "Keep emoji short in bios and names, where space is limited."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I copy an emoji?",
+   "a": "Tap the emoji on this site. It is copied to your clipboard, and you can paste it into any app."
+  },
+  {
+   "q": "What is the difference between emoji and kaomoji?",
+   "a": "Emoji are pictures from the Unicode standard. Kaomoji are text faces made from symbols, such as (˶ᵔ ᵕ ᵔ˶)."
+  },
+  {
+   "q": "Why does an emoji show as a box?",
+   "a": "Your device may be too old to include that emoji. Updating the system or using a more common emoji usually fixes it."
+  },
+  {
+   "q": "Do emoji look the same on every phone?",
+   "a": "No. Each company draws its own style, so the look changes, but the meaning stays the same."
+  },
+  {
+   "q": "Can I save my favorite emoji?",
+   "a": "Yes. Tap the heart on a card to save it on this device, and find it again on the homepage under My favorites."
+  }
+ ]
+}

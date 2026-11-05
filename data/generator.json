@@ -1,0 +1,36 @@
+{
+ "title": "Kaomoji Generator: Make Your Own Text Face (Free)",
+ "description": "Build your own kaomoji by picking eyes, mouth, cheeks, arms and decorations. Copy it in one tap, or get a random kaomoji from the library. Free.",
+ "h1": "Kaomoji generator",
+ "crumb": "Kaomoji generator",
+ "lead": "Make your own kaomoji by choosing a frame, eyes, a mouth, cheeks, arms, and a decoration. Copy your creation in one tap, save it to your favorites, or press the random button for a surprise.",
+ "sections": [
+  {
+   "h": "How to use the kaomoji generator",
+   "list": [
+    "Pick a frame, eyes, and a mouth. The face updates as you choose.",
+    "Choose None in any group to leave that part out, for a simpler face.",
+    "Add cheeks, arms, or a decoration if you want more personality. Remove decoration clears all three at once.",
+    "Press Randomize parts to shuffle everything, or Clear all to start from a blank face.",
+    "Tap Copy to copy the face, or the heart to save it to your favorites."
+   ]
+  },
+  {
+   "h": "How the parts fit together",
+   "p": "The generator puts the pieces in a fixed order: arms, frame, cheeks, eyes, mouth, eyes again, cheeks again, the closing frame, arms, and finally the decoration. That is the same pattern most kaomoji follow. To learn what each symbol does, read our list of [kaomoji symbols](/kaomoji-symbols.html)."
+  },
+  {
+   "h": "Tips for a good custom kaomoji",
+   "list": [
+    "Match the mood: round eyes and a small mouth look cute, while ಠ eyes and a flat mouth look stern.",
+    "Keep it short. One decoration is usually enough.",
+    "Test the face in your app, since some symbols may look different there.",
+    "Not sure where to start? Browse [cute kaomoji](/kaomoji/cute.html), [happy kaomoji](/kaomoji/happy.html), or [aesthetic kaomoji](/kaomoji/aesthetic.html) and change one part."
+   ]
+  },
+  {
+   "h": "Random kaomoji from the library",
+   "p": "The Random kaomoji button picks a ready-made face from our library, so you can discover styles you would not search for. Press it as many times as you like and copy the ones you enjoy. You can also go to the [homepage](/index.html) and press Surprise me."
+  }
+ ]
+}

@@ -1,16 +1,17 @@
 /* Quality check for the generated site. Run after the build:  node check.js
-   Uses the same address as build.js (SITE_URL env var, else data/site.json). No dependencies. Exits with 1 if anything fails. */
+   Uses the same address as build.js (SITE_URL env var, else the Netlify URL, else data/site.json). No dependencies. Exits with 1 if anything fails. */
 const fs = require("fs"), path = require("path");
-const root = __dirname;
-const site = JSON.parse(fs.readFileSync(path.join(root, "data/site.json"), "utf8"));
-const base = String(process.env.SITE_URL || site.siteUrl || "").trim().replace(/\/+$/, "");
+const root = process.env.OUT_DIR ? path.resolve(__dirname, process.env.OUT_DIR) : __dirname; /* same OUT_DIR as build.js */
+const site = JSON.parse(fs.readFileSync(path.join(__dirname, "data/site.json"), "utf8"));
+const netlifyUrl = process.env.NETLIFY === "true" ? process.env.URL : "";
+const base = String(process.env.SITE_URL || netlifyUrl || site.siteUrl || "").trim().replace(/\/+$/, "");
 const fails = [], warns = [];
 const fail = m => fails.push(m), warn = m => warns.push(m);
 if (!base) { console.error("No siteUrl set (data/site.json or SITE_URL)."); process.exit(1); }
 const baseUrl = new URL(base), basePath = baseUrl.pathname.replace(/\/?$/, "/");
 const unesc = s => s.replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
 const walk = d => fs.readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? (["templates", "node_modules", ".git", "backup"].includes(e.name) ? [] : walk(path.join(d, e.name))) : [path.join(d, e.name)]);
-const htmlFiles = walk(root).filter(f => f.endsWith(".html")).map(f => path.relative(root, f).split(path.sep).join("/"));
+const htmlFiles = walk(root).filter(f => f.endsWith(".html")).map(f => path.relative(root, f).split(path.sep).join("/")).filter(rel => !/^google[0-9a-f]+\.html$/.test(rel)); /* Search Console verification file is not a page */
 const urlFor = rel => base + "/" + (rel === "index.html" ? "" : rel);
 const titles = {}, descs = {}, own = new Set();
 const ALLOWED_HOSTS = new Set([baseUrl.host, "fonts.googleapis.com", "fonts.gstatic.com", "schema.org", "www.w3.org", "github.com"]);
@@ -34,6 +35,7 @@ htmlFiles.forEach(rel => {
   } else if (!/noindex/.test(h)) fail("404.html: should be noindex");
   const h1s = (h.match(/<h1[\s>]/g) || []).length;
   if (h1s !== 1) fail(rel + ": has " + h1s + " <h1> (expected 1)");
+  if (/\{\{|\{SH\d?\}|\bundefined\b|\[object /.test(h)) fail(rel + ": unreplaced placeholder or undefined value in the page");
   /* internal links and assets */
   const dir = path.posix.dirname(rel);
   for (const m of h.matchAll(/(?:href|src)="([^"]+)"/g)) {

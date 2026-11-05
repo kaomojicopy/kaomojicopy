@@ -6,23 +6,72 @@
   "icon": "☀",
   "side": "Happy & excited",
   "mood": "Happy",
-  "keywords": "smile joy glad excited cheerful cheering yay",
-  "title": "Happy Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste happy kaomoji for good news, small wins, and great moods. Tap a face to copy it. Free, no sign-up.",
-  "intro": "Happy kaomoji are text faces for good news, small wins, and no reason at all. Tap any face to copy it, then paste it into a chat, bio, or comment.\n\nBright eyes, open mouths, and little sparkles do most of the work, so these faces read as cheerful even without a message. Save the ones you like with the heart.",
+  "keywords": "kaomoji happy smile smiley face smiley joy laugh laughing excited cheerful yay",
+  "title": "Kaomoji Happy: Cheerful Text Faces to Copy and Paste",
+  "description": "Copy and paste happy kaomoji and smiley faces for good news, excitement and great moods. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Happy kaomoji are text faces for good news, small wins, and no reason at all. If you searched for kaomoji happy faces, you are in the right place: open smiles, raised arms, sparkles, and bright eyes that say yay without needing a sentence.\n\nTap a face to copy it and paste it into any chat, caption, or comment. Save the ones you like with the heart, or use the filter box to look for labels like laughing, excited, or smiley face.",
   "faq": [
+   {
+    "q": "What is a happy kaomoji?",
+    "a": "It is a text face that shows joy, such as a smile, raised arms, or bright eyes. It is built from letters and symbols instead of a picture."
+   },
    {
     "q": "How do I copy a happy kaomoji?",
     "a": "Tap the face or the Copy button. It goes to your clipboard, ready to paste anywhere."
    },
    {
-    "q": "Do happy kaomoji work on every phone?",
-    "a": "Most do. They are plain text characters, so they paste into Discord, WhatsApp, Instagram, and most other apps. A few symbols may look different, or show as a box, depending on your device's fonts and the app."
+    "q": "What is the best kaomoji for good news?",
+    "a": "Faces with raised arms or sparkles work best, such as the cheering and excited faces on this page."
    },
    {
-    "q": "Why do the sparkles look different on my device?",
-    "a": "Each device draws special symbols with its own fonts, so spacing and shapes can differ slightly. The text you paste is the same."
+    "q": "Do these faces work on every phone?",
+    "a": "Yes. They are plain text characters, so they work in Discord, WhatsApp, Instagram, and most other apps."
+   },
+   {
+    "q": "Are happy kaomoji the same as smiley faces?",
+    "a": "A smiley face is one kind of happy face. Happy kaomoji include smileys but also cover excitement, laughter, and celebration."
    }
+  ],
+  "h1": "Happy kaomoji",
+  "sections": [
+   {
+    "h": "Smiley faces and calm smiles",
+    "p": "Classic smiley kaomoji such as (^_^) and (^‿^) are the text version of a smiley face. They are low-key and work in almost any chat, including friendly work messages."
+   },
+   {
+    "h": "Excited and celebrating kaomoji",
+    "p": "For big news, pick a face with raised arms or sparkles, like ＼(＾▽＾)／ or (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧. They suit birthdays, results, and good news. You will find more on the [celebration kaomoji](/kaomoji/party.html) page."
+   },
+   {
+    "h": "Laughing and joyful faces",
+    "p": "Faces with wide open mouths and squeezed eyes, like (≧▽≦) and o(≧▽≦)o, show laughter or joy. Pair one with a short line such as that made my day."
+   },
+   {
+    "h": "Happy kaomoji or happy emoji?",
+    "p": "Emoji are tiny pictures that change look from one app to another. Happy kaomoji are plain text, so they paste the same everywhere and can be longer and more expressive. Many people use both. For cuter styles, try [cute kaomoji](/kaomoji/cute.html)."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [happy, smiling and laughing emoji](/emoji/happy-smile.html) page."
+   },
+   {
+    "h": "What these happy kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(＾▽＾): ＾ eyes curve upward and ▽ is an open mouth, a big smile.",
+     "＼(＾▽＾)／: the ＼ and ／ marks are raised arms for cheering.",
+     "(≧▽≦): ≧ and ≦ squeeze the eyes shut with joy, like a big laugh.",
+     "(ᵔ◡ᵔ): ᵔ eyes and a ◡ smile make a calm smiley face.",
+     "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧: ヮ is an open grin, ﾉ is a raised arm, and *:･ﾟ✧ sprinkles sparkles."
+    ]
+   }
+  ],
+  "blurb": "Smiles, cheers and good-news faces",
+  "related": [
+   "party",
+   "cute",
+   "greetings",
+   "love"
   ]
  },
  {
@@ -32,23 +81,68 @@
   "icon": "♡",
   "side": "Love & affection",
   "mood": "In love",
-  "keywords": "hug heart kiss cuddle affection",
-  "title": "Heart & Love Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste heart kaomoji and love text faces for hugs, kisses, crushes, and sweet messages. Tap a face to copy it.",
-  "intro": "Love kaomoji are for messages that need a bit more warmth than words alone. Use them to send a hug, say good morning to a partner, or tell a friend you are thinking of them.\n\nEvery face here is plain text, so it pastes straight into chats, captions, and bios. Tap a face to copy it, or tap the heart to keep it in your favorites.",
+  "keywords": "love emoticon heart emoticons heart kaomoji hug kiss cuddle affection",
+  "title": "Love Kaomoji and Heart Emoticons to Copy and Paste",
+  "description": "Copy and paste love kaomoji and heart emoticons: hugs, kisses, heart eyes and soft little faces for the people you care about. One tap to copy.",
+  "intro": "Love kaomoji are text faces for messages that need more warmth than words alone. Use a love emoticon to send a hug, say good morning to a partner, thank a friend, or tell someone you are thinking of them.\n\nEvery face here is plain text, so it pastes into chats, captions, and bios. Tap a face to copy it, tap the heart to save it, or filter by labels like hug, kiss, or heart eyes.",
   "faq": [
    {
     "q": "Which kaomoji are best for sending a hug?",
     "a": "Faces with arms, such as (づ｡◕‿‿◕｡)づ, look like a hug in most chats. Try a few and see which one fits your style."
    },
    {
+    "q": "What is a love emoticon?",
+    "a": "A love emoticon is a text face or symbol that shows affection, usually with a heart, a kiss, or heart eyes."
+   },
+   {
     "q": "Can I use love kaomoji with friends and family?",
     "a": "Yes. Hearts and hugs are not only for couples. Many people use them to cheer up a friend, thank a family member, or say well done."
+   },
+   {
+    "q": "How do I type a heart in a kaomoji?",
+    "a": "The easiest way is to copy the whole face from this page. Heart symbols such as ♡ and ♥ are normal text characters, so they paste like any other letter."
    },
    {
     "q": "Why does a kaomoji look different on my phone?",
     "a": "Each device draws special symbols with its own fonts, so spacing and shapes can differ a little. The text itself stays the same when you paste it."
    }
+  ],
+  "h1": "Love kaomoji and heart emoticons",
+  "sections": [
+   {
+    "h": "Hugs and kisses",
+    "p": "Faces with arms, like (づ｡◕‿‿◕｡)づ, look like a hug in almost any chat. Faces with a small mouth and a ♡ beside them, like (˘³˘)♥, read as a kiss. Add a short line such as miss you or good night to make the meaning clear."
+   },
+   {
+    "h": "Heart emoticons, heart kaomoji and heart eyes",
+    "p": "Heart kaomoji and heart emoticons use symbols such as ♡, ♥, and ❤ next to a face, or as the eyes of the face itself. Heart eyes show that you adore something, whether that is a person, a pet, or a snack. Pick a soft face for sweet messages and a bigger one for excitement."
+   },
+   {
+    "h": "Love kaomoji for friends and family",
+    "p": "Love is not only for couples. Many people send a hug to a friend who had a rough day, a heart to a family member, or a blushing face after a kind compliment. Use a lighter face for friends and save the closest ones for people you know well. For a shyer tone, see [blushing kaomoji](/kaomoji/shy.html)."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [love and heart emoji](/emoji/love-hearts.html) page."
+   },
+   {
+    "h": "What these love kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(づ｡◕‿‿◕｡)づ: づ at each end are arms reaching for a hug.",
+     "(♡ᴗ♡): ♡ replaces the eyes, so the face is lovestruck.",
+     "(❤ω❤): ❤ eyes and an ω mouth give a soft heart-eyes look.",
+     "(˘³˘)♥: the ³ is pursed lips blowing a kiss, with ♥ beside it.",
+     "(⊃｡•́‿•̀｡)⊃: ⊃ marks are open arms asking for a hug."
+    ]
+   }
+  ],
+  "blurb": "Hugs, kisses and heart emoticons",
+  "related": [
+   "cute",
+   "shy",
+   "aesthetic",
+   "greetings"
   ]
  },
  {
@@ -58,11 +152,15 @@
   "icon": "୨୧",
   "side": "Cute & kawaii",
   "mood": "Extra cute",
-  "keywords": "kawaii adorable sweet blush blushing aesthetic soft pastel",
-  "title": "Cute Kaomoji & Kawaii Faces Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste cute kaomoji and kawaii text faces for chats, bios, and comments. Tap any face to copy it. Free, no sign-up.",
-  "intro": "Cute kaomoji, often called kawaii faces, lean on big eyes, soft cheeks, and little decorations like flowers and sparkles. They suit a friendly message, a social bio, or a caption that needs a gentle touch.\n\nPick a face, tap to copy, and paste it anywhere you can type text. Save your favorites with the heart so they are easy to find next time.",
+  "keywords": "cute kaomoji cute emoticons cute faces kawaii adorable sweet blush",
+  "title": "Cute Kaomoji: Kawaii Text Faces to Copy and Paste",
+  "description": "Copy and paste cute kaomoji and kawaii emoticons: sparkly eyes, blushing cheeks and tiny hearts. Tap a face to copy it. Free and easy to use.",
+  "intro": "Cute kaomoji are text faces built to look soft, round, and friendly. They use big eyes, rosy cheeks, tiny mouths, and small decorations like hearts, flowers, and sparkles. If you want cute kaomojis to copy and paste, this page puts them in one place, from a shy smile to a happy squeeze.\n\nTap any face to copy it, then paste it into a message, caption, bio, or comment. Use the heart to save your favorites, or the filter box to find a face by its label, like blushing, kiss, or puppy.",
   "faq": [
+   {
+    "q": "What is the cutest kaomoji?",
+    "a": "It depends on your taste, but faces with big sparkly eyes, a small smile, and a blush are the most popular. Try the ones labelled sweet eyes, soft smile, or blushing smile."
+   },
    {
     "q": "What does kawaii mean?",
     "a": "Kawaii is a Japanese word for cute or lovable. In kaomoji it usually means round eyes, blushing cheeks, and soft shapes."
@@ -74,7 +172,55 @@
    {
     "q": "Can I use two faces in one message?",
     "a": "Yes. Put a space between them or add a short word. Very long chains can look messy, so a little goes a long way."
+   },
+   {
+    "q": "Why does a cute kaomoji look different on my phone?",
+    "a": "Each device draws special symbols with its own fonts, so spacing and shapes can differ a little. The text you paste stays the same."
    }
+  ],
+  "h1": "Cute kaomoji",
+  "sections": [
+   {
+    "h": "What makes a kaomoji cute?",
+    "p": "Most cute kaomoji follow the same recipe. The eyes are wide or curved, often drawn with characters like ◕, ˘, or •. The mouth is small, sometimes just a ᴗ or ω. Extras such as ♡, ✿, and ✧ add warmth. Because the face is simple, it reads quickly, which is why cute faces work so well in short messages."
+   },
+   {
+    "h": "Cute faces for different moments",
+    "list": [
+     "A gentle smile like (˶′◡‵˶) for a thank-you message",
+     "A blushing face like (´｡• ᵕ •｡`) after a compliment",
+     "A kiss or heart like (•ө•)♡ for someone you care about",
+     "A tiny pout like (๑•́ ₃ •̀๑) for a playful complaint",
+     "A puppy face like (◕ᴥ◕ʋ) for pet photos and animal posts"
+    ],
+    "p": "Pick the face that matches what you want to say:"
+   },
+   {
+    "h": "Cute emoticons, kawaii symbols and where to use them",
+    "p": "Kawaii is the Japanese word for cute, and cute emoticons made from text, also known as kawaii emoticons, are sometimes called cute face symbols or kawaii text faces. They work anywhere plain text works: chats, comments, bios, captions, and notes. Add one at the end of a sentence, or send it alone as a quick reply. For more styles, see [love kaomoji and heart emoticons](/kaomoji/love.html), [aesthetic kaomoji](/kaomoji/aesthetic.html), and [cat kaomoji](/kaomoji/cats.html)."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [cute and aesthetic emoji](/emoji/cute-aesthetic.html) page."
+   },
+   {
+    "h": "What these cute kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(◕ᴗ◕✿): ◕ eyes, a small ᴗ smile, and a ✿ flower for decoration.",
+     "(´｡• ᵕ •｡`): ｡ marks are cheeks and • are eyes, with a small ᵕ mouth for a blushing smile.",
+     "(•ө•)♡: the ө mouth is a tiny kiss, and ♡ shows affection.",
+     "(◕ᴥ◕ʋ): the ᴥ is a dog-like nose and mouth, which makes this a puppy face.",
+     "(˶′◡‵˶): ˶ marks add rosy cheeks around a gentle smile."
+    ]
+   }
+  ],
+  "blurb": "Kawaii faces with sparkly eyes",
+  "related": [
+   "love",
+   "aesthetic",
+   "bunnies",
+   "happy"
   ]
  },
  {
@@ -84,10 +230,10 @@
   "icon": "☁",
   "side": "Sad & crying",
   "mood": "A little sad",
-  "keywords": "cry crying tears upset worried hug",
-  "title": "Sad & Crying Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste sad kaomoji and crying text faces for tough days and soft moods. Tap a face to copy it. Free, no sign-up.",
-  "intro": "Sad kaomoji give you a soft way to say you are having a rough day. A small teary face can tell a friend how you feel without a long explanation, and it can also be a gentle way to say sorry.\n\nTap a face to copy it and paste it into your message. They work for light moments too, like being sad about missing lunch.",
+  "keywords": "sad face crying cry tears frown frowny sad emoticon upset",
+  "title": "Sad Kaomoji: Crying and Sad Faces to Copy and Paste",
+  "description": "Copy and paste sad kaomoji, crying faces and sad emoticons for tears, sighs and quiet moments. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Sad kaomoji give you a soft way to say you are having a rough day. A small teary face can tell a friend how you feel without a long explanation, and it can also be a gentle way to say sorry.\n\nThis page has sad faces, crying kaomoji, and quiet sighs. Tap a face to copy it and paste it into your message. They work for light moments too, like being sad about missing lunch.",
   "faq": [
    {
     "q": "When is it okay to use a sad kaomoji?",
@@ -98,9 +244,56 @@
     "a": "Crying faces usually show tears with marks like ; or T, while sad faces use droopy eyes and a small frown. Pick the one that matches your mood."
    },
    {
+    "q": "What is a frowny face in kaomoji?",
+    "a": "A frowny face is a simple sad face with a downturned mouth, like (︶︹︺). It shows disappointment more than tears."
+   },
+   {
     "q": "How do I comfort a friend with a kaomoji?",
     "a": "Look for faces with a hug or soft eyes on the sad and love pages, and add one short kind line next to it."
    }
+  ],
+  "h1": "Sad kaomoji",
+  "sections": [
+   {
+    "h": "Sad faces and crying kaomoji",
+    "p": "A sad face usually has drooping eyes and a small frown, like (｡•́︿•̀｡). Crying kaomoji add tears with marks such as ; or T, like (T_T) and (；へ：). Heavier faces show streaming tears, while lighter ones show a single sniffle. If you search for kaomoji crying faces, these are the ones to copy."
+   },
+   {
+    "h": "When to use a sad emoticon",
+    "list": [
+     "Telling a friend you had a rough day",
+     "Joking about small problems, like missing the bus",
+     "Saying sorry in a soft way",
+     "Reacting to sad news with a short kind line"
+    ],
+    "p": "Sad emoticons suit many everyday moments:"
+   },
+   {
+    "h": "Comforting someone who sent a sad face",
+    "p": "If a friend sends a sad face, reply with words first, then add a gentle face such as a hug or soft eyes. The [love kaomoji](/kaomoji/love.html) page has hug faces that work well here. For a sleepy, low-energy mood, see [sleepy kaomoji](/kaomoji/sleepy.html)."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [crying and sad emoji](/emoji/crying-sad.html) page."
+   },
+   {
+    "h": "What these sad kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(T_T): the T letters look like eyes with streaming tears.",
+     "(╥﹏╥): ╥ shows eyes with tears and ﹏ is a wobbly mouth.",
+     "(｡•́︿•̀｡): the ︿ mouth turns down, and the marks above the eyes look worried.",
+     "(ಥ_ಥ): ಥ is used as a teary eye.",
+     "(；へ：): へ is a downturned mouth, and ; and : are tears."
+    ]
+   }
+  ],
+  "blurb": "Crying faces and quiet sighs",
+  "related": [
+   "love",
+   "sleepy",
+   "angry",
+   "cats"
   ]
  },
  {
@@ -111,8 +304,8 @@
   "side": "Sleepy & chill",
   "mood": "Sleepy",
   "keywords": "tired sleep nap zzz cozy chill",
-  "title": "Sleepy & Sleeping Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste sleepy kaomoji for naps, tired moods, and goodnight messages. Tap a face to copy it. Free, no sign-up.",
+  "title": "Sleepy Kaomoji: Cozy and Tired Faces to Copy and Paste",
+  "description": "Copy sleepy kaomoji for naps, late nights and slow mornings. Cozy zzz faces you can paste into any chat in one tap. Free, no sign-up.",
   "intro": "Sleepy kaomoji are for naps, late nights, and mornings that start too early. Closed eyes and little zzz marks do most of the work, so these faces are quick to read.\n\nThey are handy for saying good night, telling friends you are logging off, or showing you are tired. Tap a face to copy it and paste it anywhere.",
   "faq": [
    {
@@ -125,8 +318,44 @@
    },
    {
     "q": "Can I use these on Discord or WhatsApp?",
-    "a": "Yes. They are plain text, so they paste into both, though a symbol may look a little different depending on the device."
+    "a": "Yes. They are plain text, so they paste into both."
+   },
+   {
+    "q": "Is there a face for being tired but happy?",
+    "a": "Yes. Look for the cozy faces with a small smile and closed eyes."
    }
+  ],
+  "h1": "Sleepy kaomoji",
+  "sections": [
+   {
+    "h": "Good night and nap faces",
+    "p": "Add a sleepy face after a short line like good night or see you tomorrow. Faces such as (｡-ω-)zzz and (-.-)Zzz… show dozing off, while calmer faces show a cozy rest."
+   },
+   {
+    "h": "Cozy, tired and slow-morning moods",
+    "p": "Sleepy does not always mean sleeping. A cozy face, such as the tea break, fits a slow morning, and a tired sigh fits a long day. For gentle goodbyes, try [greeting kaomoji](/kaomoji/greetings.html)."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [tired and sleeping emoji](/emoji/tired-sleepy.html) page."
+   },
+   {
+    "h": "What these sleepy kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(｡-ω-)zzz: closed - eyes, a small ω mouth, and zzz for sleep.",
+     "(-.-)Zzz…: dash eyes and a dot mouth show a deep doze.",
+     "( ˘▽˘)っ♨: ˘ closed eyes and a cup with ♨ steam, a tea break.",
+     "(︶｡︶): ︶ marks are closed, resting eyes."
+    ]
+   }
+  ],
+  "blurb": "Cozy, tired and good night faces",
+  "related": [
+   "sad",
+   "cute",
+   "greetings",
+   "bears"
   ]
  },
  {
@@ -136,23 +365,55 @@
   "icon": "✷",
   "side": "Sassy & silly",
   "mood": "Sassy",
-  "keywords": "smug shrug meh unimpressed silly confident confused",
-  "title": "Shrug & Sassy Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste shrug, smug, and sassy kaomoji for jokes, side-eye, and playful replies. Tap a face to copy it.",
-  "intro": "Sassy kaomoji add attitude to a message: a smug grin, a raised eyebrow, a shrug that says whatever. They work best with people who already know your tone.\n\nTap a face to copy it. A short line plus one of these faces is usually enough.",
+  "keywords": "smug face smirk sassy cheeky teasing confident",
+  "title": "Smug and Smirk Kaomoji: Sassy Faces to Copy and Paste",
+  "description": "Copy and paste smug face and smirk kaomoji for teasing, playful attitude and confident replies. Tap a face to copy it. Free, no sign-up.",
+  "intro": "Sassy kaomoji add attitude to a message: a smug grin, a raised eyebrow, a knowing smirk. They work best with people who already know your tone.\n\nTap a face to copy it. A short line plus one of these faces is usually enough.",
   "faq": [
    {
-    "q": "What is the shrug kaomoji?",
-    "a": "It is ¯\\_(ツ)_/¯, a classic face that means I do not know or whatever. You can copy it from this page."
-   },
-   {
-    "q": "Why does the shrug sometimes lose its arm?",
-    "a": "Some apps treat a backslash before an underscore as formatting and hide the backslash. Typing a second backslash, or pasting it inside a code block, usually fixes it."
+    "q": "What is a smug face kaomoji?",
+    "a": "It is a text face with a confident or teasing look, often with narrowed eyes and a slight smile."
    },
    {
     "q": "Are sassy faces rude?",
     "a": "Not usually, but tone depends on the situation. With friends they read as playful. In a work chat, a milder face is safer."
+   },
+   {
+    "q": "What is the difference between a smirk and a smug face?",
+    "a": "A smirk is a quick, cheeky grin. A smug face looks more pleased with itself and lasts longer in tone."
+   },
+   {
+    "q": "Where is the shrug kaomoji?",
+    "a": "The shrug has its own page, shrug emoticons, with many variants."
    }
+  ],
+  "h1": "Sassy kaomoji",
+  "sections": [
+   {
+    "h": "Smug face and smirk",
+    "p": "A smug face usually has half-closed eyes and a small curved mouth, like (≖ᴗ≖✿) or (≖_≖ ). A smirk, like (￢‿￢), is a little more cheeky. Both say I know something you do not."
+   },
+   {
+    "h": "Teasing without being rude",
+    "p": "Sassy faces are best for jokes between friends. Pair them with a light line, and avoid them in serious or formal chats. For stronger reactions, see [shrug emoticons](/kaomoji/shrug.html), [lenny faces](/kaomoji/lenny-face.html), and [meme faces](/kaomoji/meme.html)."
+   },
+   {
+    "h": "What these sassy kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(￢‿￢): ￢ eyes are raised, and ‿ is a sly smile.",
+     "(≖ᴗ≖✿): ≖ eyes are narrowed, and ✿ adds a cheeky flourish.",
+     "(¬‿¬): ¬ marks look like raised eyebrows, giving a smug look.",
+     "(≖_≖ ): narrowed eyes and a flat mouth give a smug stare."
+    ]
+   }
+  ],
+  "blurb": "Smug grins and playful smirks",
+  "related": [
+   "shrug",
+   "lenny-face",
+   "meme",
+   "angry"
   ]
  },
  {
@@ -161,23 +422,60 @@
   "group": "More little things",
   "icon": "✸",
   "side": "Angry",
-  "keywords": "mad furious annoyed table flip tableflip",
-  "title": "Angry & Table Flip Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste angry kaomoji and table flip text faces for annoyed, mad, and fed-up moments. Tap a face to copy it.",
-  "intro": "Angry kaomoji let you show frustration, from a small grumble to a full table flip. Most people use them jokingly, to say they are annoyed at a game, a long queue, or a Monday.\n\nTap a face to copy it. If you are upset with a real person, a calm sentence may work better than any face.",
+  "keywords": "angry face mad annoyed pout pouty pouting scowl furious",
+  "title": "Angry Face Kaomoji: Mad, Annoyed and Pouty Faces to Copy",
+  "description": "Copy and paste angry face kaomoji, annoyed looks and pouty faces for frustration and playful complaints. Tap a face to copy it. Free to use.",
+  "intro": "Angry kaomoji let you show frustration, from a small grumble to a full glare. Most people use them jokingly, to say they are annoyed at a game, a long queue, or a Monday.\n\nThis page covers angry faces, annoyed looks, and pouty faces. Tap a face to copy it. If you are upset with a real person, a calm sentence may work better than any face.",
   "faq": [
-   {
-    "q": "What is the table flip kaomoji?",
-    "a": "It is (╯°□°）╯︵ ┻━┻, a face that throws a table in frustration. The matching ┬─┬ノ( º _ ºノ) puts the table back."
-   },
    {
     "q": "Can I use angry faces without sounding rude?",
     "a": "Yes, if you pair them with a joking line. A face on its own can sound sharper than you mean it."
    },
    {
+    "q": "What is a pouty face?",
+    "a": "It is a face with a downturned or pursed mouth that shows sulking in a playful way."
+   },
+   {
+    "q": "Where is the table flip kaomoji?",
+    "a": "It has its own page, table flip kaomoji, together with the matching face that puts the table back."
+   },
+   {
     "q": "Why do some faces show empty boxes?",
     "a": "Your device may not have a font for one of the symbols. Try another face, or update your system."
    }
+  ],
+  "h1": "Angry face kaomoji",
+  "sections": [
+   {
+    "h": "Angry face vs annoyed face",
+    "p": "An angry face has slanted eyes and a hard mouth, like (｀へ´) or (｀Δ´)！. An annoyed face is quieter: a flat stare or a sideways look, like (¬_¬). Pick annoyed for small irritations and angry for bigger ones. A scowl face like (`⌓´) glares with a tight frown."
+   },
+   {
+    "h": "Pouty and pouting faces",
+    "p": "A pouty face sulks instead of shouting. It is a playful way to complain, ask for attention, or say you are not happy that plans changed. Look for faces like (•ˋ _ ˊ•) and (¬з¬). For a softer version, try [cute kaomoji](/kaomoji/cute.html)."
+   },
+   {
+    "h": "Table flips and other dramatic reactions",
+    "p": "The famous table flip has its own page: [table flip kaomoji](/kaomoji/table-flip.html), with the calm face that puts the table back. For the shrug, lenny face, and facepalm, see [shrug emoticons](/kaomoji/shrug.html), [lenny faces](/kaomoji/lenny-face.html), and [meme faces](/kaomoji/meme.html)."
+   },
+   {
+    "h": "What these angry kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(｀へ´): ｀ and ´ are slanted eyebrows, and へ is a tight frown.",
+     "(｀Δ´)！: the Δ mouth is clenched, and ！ adds shouting.",
+     "(•ˋ _ ˊ•): ˋ and ˊ tilt the eyebrows for a pouting look.",
+     "(`⌓´): ⌓ is a flat, scowling mouth.",
+     "(◣_◢): the ◣ and ◢ eyes are angular, a dark stare."
+    ]
+   }
+  ],
+  "blurb": "Mad, annoyed and pouty faces",
+  "related": [
+   "table-flip",
+   "sassy",
+   "sad",
+   "meme"
   ]
  },
  {
@@ -186,9 +484,9 @@
   "group": "More little things",
   "icon": "!",
   "side": "Surprised",
-  "keywords": "shock wow gasp",
-  "title": "Surprised & Shocked Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste surprised and shocked kaomoji for big reveals and wow moments. Tap a face to copy it. Free, no sign-up.",
+  "keywords": "shock face shocked surprised confused nervous scared wow gasp",
+  "title": "Shocked Face Kaomoji: Surprised and Confused Faces to Copy",
+  "description": "Copy and paste shocked face kaomoji for surprise, confusion, nervous moments and plot twists. Wide-eyed text faces you can use in any chat.",
   "intro": "Surprised kaomoji use wide eyes and open mouths to show shock, delight, or plain confusion. They are quick reactions for big news, funny twists, and moments when you do not know what to say.\n\nTap a face to copy it and paste it right after the news that surprised you.",
   "faq": [
    {
@@ -200,9 +498,46 @@
     "a": "Yes. Add a sparkle or a heart next to it, or a few words like no way, to show it is good news."
    },
    {
+    "q": "What does a nervous face look like?",
+    "a": "It usually has wide eyes plus a sweat mark, written with a semicolon, like (°o°;)."
+   },
+   {
     "q": "Do these work in comments and captions?",
-    "a": "In most apps, yes. They are plain text, so they paste into comments and captions, though a few symbols can look slightly different depending on the app and your device."
+    "a": "Yes. They are plain text, so they work anywhere you can type."
    }
+  ],
+  "h1": "Surprised kaomoji",
+  "sections": [
+   {
+    "h": "Shock face, surprise and gasps",
+    "p": "A shock face has round eyes and a small round mouth, like (°o°) or (°ロ°). It shows a quick gasp. Add a sparkle or a heart next to it for happy surprise."
+   },
+   {
+    "h": "Nervous, scared and confused faces",
+    "p": "Sweat marks and wobbly mouths show nerves, like (°o°;). A confused face, like (・・;), says wait, what? Scared faces add more shaking, such as ((((；ﾟДﾟ))))."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [shocked, surprised and scared emoji](/emoji/shocked-scared.html) page."
+   },
+   {
+    "h": "What these surprised kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(°o°): degree-sign eyes and an o mouth show shock.",
+     "(⊙_⊙): ⊙ eyes are wide open.",
+     "(°o°;): the semicolon is a sweat drop for nerves.",
+     "(・・;): small dot eyes and a sweat mark show confusion.",
+     "((((；ﾟДﾟ)))): the extra brackets show shaking in fear."
+    ]
+   }
+  ],
+  "blurb": "Shocked, nervous and confused faces",
+  "related": [
+   "shy",
+   "meme",
+   "sad",
+   "happy"
   ]
  },
  {
@@ -211,9 +546,9 @@
   "group": "More little things",
   "icon": "◡",
   "side": "Shy",
-  "keywords": "blush embarrassed",
-  "title": "Shy & Blushing Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste shy kaomoji and blushing text faces for crushes and bashful moments. Tap a face to copy it. Free.",
+  "keywords": "blush blushing blushy face shy embarrassed bashful",
+  "title": "Blushing Kaomoji: Shy and Embarrassed Faces to Copy",
+  "description": "Copy and paste blushing kaomoji, blush faces and shy emoticons for compliments and awkward moments. Tap a bashful face to copy it. Free to use.",
   "intro": "Shy kaomoji show a blush, a nervous smile, or someone hiding behind their hands. Small slash marks on the cheeks usually stand for blush lines.\n\nThey are useful for taking a compliment, saying something a little bold, or admitting you are embarrassed. Tap a face to copy it.",
   "faq": [
    {
@@ -227,7 +562,40 @@
    {
     "q": "Can I use shy faces for flirting?",
     "a": "Yes, they are often used that way. Keep it light and match the other person's tone."
+   },
+   {
+    "q": "Is a blush face the same as a blushy face?",
+    "a": "They mean the same thing. Different people use different words for a face with blush marks."
    }
+  ],
+  "h1": "Blushing and shy kaomoji",
+  "sections": [
+   {
+    "h": "Blush faces and blushy faces",
+    "p": "Blush lines are drawn with slashes or marks beside the eyes, as in (*/∇＼*) and (ﾉ∀`〃). The more lines, the stronger the blush."
+   },
+   {
+    "h": "Hiding faces",
+    "p": "Some shy kaomoji cover the face with a hand, like (／ω＼). They are good for compliments you do not know how to answer. For a sweeter look, see [cute kaomoji](/kaomoji/cute.html)."
+   },
+   {
+    "h": "What these shy kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(*/∇＼*): the / and ＼ marks are blush lines.",
+     "(ﾉ∀`〃): 〃 marks are blush on the cheeks.",
+     "(／ω＼): the / and ＼ marks are hands hiding the face.",
+     "(⸝⸝>﹏<⸝⸝): ⸝⸝ are blush marks around squeezed-shut eyes.",
+     "(〃▽〃): 〃 on each side are blush marks."
+    ]
+   }
+  ],
+  "blurb": "Blushing and bashful faces",
+  "related": [
+   "love",
+   "cute",
+   "surprised",
+   "aesthetic"
   ]
  },
  {
@@ -236,9 +604,9 @@
   "group": "More little things",
   "icon": "ฅ",
   "side": "Cats",
-  "keywords": "cat kitty kitten",
-  "title": "Cat Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste cat kaomoji and cute text kitties for chats, bios, and comments. Tap a face to copy it. Free, no sign-up.",
+  "keywords": "cat emoticons cat kaomoji sad cat face cat kitty kitten",
+  "title": "Cat Kaomoji and Cat Emoticons to Copy and Paste",
+  "description": "Copy and paste cat kaomoji and cat emoticons: happy cats, sleepy cats, sad cat faces and little paws. Tap a text cat to copy it. Free to use.",
   "intro": "Cat kaomoji draw whiskers, ears, and paws with ordinary characters. Many use ^ for ears and = for whiskers, which gives them their classic look.\n\nThey fit pet posts, cozy messages, and anything that needs a little cat energy. Tap a cat to copy it, then paste it into your chat or caption.",
   "faq": [
    {
@@ -252,7 +620,48 @@
    {
     "q": "Is there a sleepy or grumpy cat?",
     "a": "Yes, both are on this page. Look for the napping cat and the grumpy cat."
+   },
+   {
+    "q": "What is a sad cat face?",
+    "a": "A cat kaomoji with drooping eyes or tears, used to show a dramatic sad mood."
    }
+  ],
+  "h1": "Cat kaomoji and cat emoticons",
+  "sections": [
+   {
+    "h": "How cat emoticons are drawn",
+    "p": "Most cat kaomoji put a small face in the middle and mark the ears and whiskers on each side, as in (=^･ω･^=). Some add a tail or paws, like ᓚ₍ ^. .^₎ and ฅ•ω•ฅ."
+   },
+   {
+    "h": "Happy, sleepy and sad cat faces",
+    "p": "Cats show mood just like people. A happy cat smiles, a sleepy cat closes its eyes, and a sad cat face droops, like (=;ェ;=). Use the sad cat when you want to be dramatic in a funny way."
+   },
+   {
+    "h": "Using cat kaomoji in posts",
+    "p": "Cat faces work well in captions, bios, and comments on pet photos. If you like animal faces, also see [bear kaomoji](/kaomoji/bears.html) and [bunny kaomoji](/kaomoji/bunnies.html)."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [cat emoji](/emoji/cat.html) page."
+   },
+   {
+    "h": "What these cat kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(=^･ω･^=): ^ marks are ears and = marks are whiskers around a little face.",
+     "ᓚ₍ ^. .^₎: the ᓚ is often a tail, and ^ marks are cat ears.",
+     "(=;ェ;=): ; eyes are tears and ェ is a small mouth on a sad cat.",
+     "ฅ•ω•ฅ: the ฅ characters are paws raised on each side.",
+     "≽^•⩊•^≼: ≽ and ≼ are pointed cat ears."
+    ]
+   }
+  ],
+  "blurb": "Cat faces with whiskers and paws",
+  "related": [
+   "cute",
+   "bears",
+   "bunnies",
+   "sleepy"
   ]
  },
  {
@@ -262,8 +671,8 @@
   "icon": "ʕ",
   "side": "Bears",
   "keywords": "bear teddy",
-  "title": "Bear Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste bear kaomoji and cute teddy bear text faces. Tap a face to copy it. Free, no sign-up.",
+  "title": "Bear Kaomoji: Cute Teddy Bear Faces to Copy and Paste",
+  "description": "Copy and paste bear kaomoji: happy bears, sleepy bears and big bear hugs. Tap a text bear to copy it and paste it anywhere. Free to use.",
   "intro": "Bear kaomoji use a small round nose and ear-like marks on both sides to look like a teddy. They feel warm and friendly, which makes them a good fit for hugs and cheerful messages.\n\nTap a bear to copy it and paste it anywhere you can type.",
   "faq": [
    {
@@ -278,6 +687,34 @@
     "q": "Do bear kaomoji work in every app?",
     "a": "Almost always. The symbols are standard text, but a few older devices may show boxes for some of them."
    }
+  ],
+  "h1": "Bear kaomoji",
+  "sections": [
+   {
+    "h": "Why bear faces feel so friendly",
+    "p": "The round nose and soft eyes make bears read as gentle. A happy bear, a sleepy bear, and a waving bear cover most everyday moods."
+   },
+   {
+    "h": "Bear hugs and greetings",
+    "p": "Faces with raised arms work as a hug, like ʕつ•ᴥ•ʔつ. For hello and goodbye faces, see [greeting kaomoji](/kaomoji/greetings.html), or try [cat kaomoji](/kaomoji/cats.html) for more animals."
+   },
+   {
+    "h": "What these bear kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "ʕ•ᴥ•ʔ: ʕ and ʔ are the round ears, • are eyes, and ᴥ is the nose.",
+     "ʕつ•ᴥ•ʔつ: the つ marks are arms reaching out for a hug.",
+     "ʕ ᵔᴥᵔ ʔ: ᵔ eyes give the bear a happy look.",
+     "ʕ-ᴥ-ʔ: dash eyes show a sleepy bear."
+    ]
+   }
+  ],
+  "blurb": "Teddy bear faces and big hugs",
+  "related": [
+   "cute",
+   "cats",
+   "bunnies",
+   "love"
   ]
  },
  {
@@ -287,8 +724,8 @@
   "icon": "૮",
   "side": "Bunnies",
   "keywords": "bunny rabbit",
-  "title": "Bunny Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste bunny kaomoji and cute rabbit text faces for chats and bios. Tap a face to copy it. Free, no sign-up.",
+  "title": "Bunny Kaomoji: Cute Rabbit Faces to Copy and Paste",
+  "description": "Copy and paste bunny kaomoji with tiny ears and soft faces. Tap a text bunny to copy it and paste it into any chat or bio. Free to use.",
   "intro": "Bunny kaomoji use symbols on both sides of a small face to look like ears or paws. They are soft and playful, a good fit for spring messages, cozy chats, and gentle jokes.\n\nTap a bunny to copy it, then paste it into your message.",
   "faq": [
    {
@@ -303,6 +740,33 @@
     "q": "Why do some bunny faces look broken on my device?",
     "a": "They use less common symbols that some fonts do not include. Try another bunny, or update your device fonts."
    }
+  ],
+  "h1": "Bunny kaomoji",
+  "sections": [
+   {
+    "h": "How bunny faces get their ears",
+    "p": "Most place a special symbol on each side of the face so it looks like ears or little paws. Different faces give the bunny a happy, sleepy, or cheeky mood."
+   },
+   {
+    "h": "When to use a bunny face",
+    "p": "Bunnies suit spring and Easter messages, sweet replies, and pet posts. For more sweet styles, see [cute kaomoji](/kaomoji/cute.html)."
+   },
+   {
+    "h": "What these bunny kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "૮ ・ﻌ・ა: ૮ and ა are ears or paws, and ﻌ is the nose.",
+     "૮₍´˶• ᴥ •˶`₎ა: ₍ and ₎ frame a soft face with blush marks.",
+     "૮ ˃ ⤙ ˂ ა: ˃ and ˂ eyes with a ⤙ mouth make a pouty bunny."
+    ]
+   }
+  ],
+  "blurb": "Soft bunny faces with tiny ears",
+  "related": [
+   "cute",
+   "cats",
+   "bears",
+   "aesthetic"
   ]
  },
  {
@@ -312,8 +776,8 @@
   "icon": "✺",
   "side": "Celebrations",
   "keywords": "birthday celebrate gift cheers party",
-  "title": "Party & Birthday Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste party, birthday, and celebration kaomoji for congrats and good news. Tap a face to copy it. Free.",
+  "title": "Celebration Kaomoji: Party and Birthday Faces to Copy",
+  "description": "Copy and paste celebration kaomoji for birthdays, cheers and good news. Party text faces you can paste into any chat in one tap. Free to use.",
   "intro": "Celebration kaomoji bring confetti energy to a message: raised arms, music notes, balloons, and a little cake. Use them for birthdays, congratulations, and wins big or small.\n\nTap a face to copy it and paste it next to your message.",
   "faq": [
    {
@@ -326,10 +790,37 @@
    },
    {
     "q": "Do celebration kaomoji work in group chats?",
-    "a": "Yes. They are plain text, so they paste into group chats, though fonts can change how a face looks, so it may not appear identical to everyone."
+    "a": "Yes. They are plain text, so everyone sees the same face, though fonts can change the spacing a little."
    }
   ],
-  "h1": "Celebration kaomoji"
+  "h1": "Celebration kaomoji",
+  "sections": [
+   {
+    "h": "Birthday and party faces",
+    "p": "Pick a face with raised arms or a balloon, then add the person's name and a short wish. Faces with a cake or gift make a good birthday reply."
+   },
+   {
+    "h": "Cheers, dance and good news",
+    "p": "Music notes and dancing arms show a party mood. For everyday joy, see [happy kaomoji](/kaomoji/happy.html)."
+   },
+   {
+    "h": "What these celebration kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "＼(^o^)／: arms up and an open mouth, a cheer.",
+     "♪(´▽｀): ♪ is a music note for dancing.",
+     "ヽ(´▽`)/🎈: a raised arm holding a balloon.",
+     "(´∀｀)♡🍰: a happy face with a heart and a cake."
+    ]
+   }
+  ],
+  "blurb": "Birthday and party faces",
+  "related": [
+   "happy",
+   "greetings",
+   "cute",
+   "aesthetic"
+  ]
  },
  {
   "slug": "greetings",
@@ -338,8 +829,8 @@
   "icon": "☺",
   "side": "Greetings",
   "keywords": "hi hello wave morning bye",
-  "title": "Hello & Wave Kaomoji Copy and Paste | Kaomoji Copy",
-  "description": "Copy and paste hello, wave, and goodbye kaomoji for greetings and sign-offs. Tap a face to copy it. Free, no sign-up.",
+  "title": "Greeting Kaomoji: Hello and Goodbye Faces to Copy",
+  "description": "Copy and paste greeting kaomoji for hello, good morning, good night and goodbye. Waving text faces you can paste into any chat in one tap.",
   "intro": "Greeting kaomoji start or end a chat with a smile. Many end in ノ, which looks like a raised hand, so they read as a wave.\n\nUse them for good morning, a quick hello, or a friendly goodbye. Tap a face to copy it and paste it into your message.",
   "faq": [
    {
@@ -355,6 +846,1085 @@
     "a": "In a friendly team chat, yes. For formal emails, plain words are safer."
    }
   ],
-  "h1": "Greeting kaomoji"
+  "h1": "Greeting kaomoji",
+  "sections": [
+   {
+    "h": "Hello and good morning faces",
+    "p": "A waving face with a smile works as hello at any time of day. Add the person's name or a short good morning to make it personal."
+   },
+   {
+    "h": "Goodbye and good night",
+    "p": "For the end of a chat, use a waving face or a sleepy one. You can find more on the [sleepy kaomoji](/kaomoji/sleepy.html) page."
+   },
+   {
+    "h": "What these greeting kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(＾▽＾)ノ: the ノ is a raised hand, a wave.",
+     "(´-ω-`)ﾉ゛: a sleepy face waving good night.",
+     "(^_^)/: the / is a raised arm saying goodbye.",
+     "ヾ(･ω･*)ﾉ: raised hands on both sides, a bright hello."
+    ]
+   }
+  ],
+  "blurb": "Hello, goodbye and good morning faces",
+  "related": [
+   "happy",
+   "sleepy",
+   "love",
+   "party"
+  ]
+ },
+ {
+  "slug": "meme",
+  "label": "Meme faces",
+  "group": "More little things",
+  "icon": "ಠ",
+  "side": "Meme faces",
+  "keywords": "facepalm facepalmed facepalming derp face duck face sus face sus deadpan stoic face stone face straight face flat face deal with it meme",
+  "title": "Meme Faces: Facepalm, Deadpan, Derp and Sus Kaomoji",
+  "description": "Copy and paste meme faces: facepalm, deadpan, derp face, duck face, sus face and deal with it. Tap a face to copy it. Free, no sign-up.",
+  "h1": "Meme faces",
+  "intro": "Meme faces are the text reactions that spread through forums, chats, and comment sections: the facepalm, the deadpan stare, the derp face, and the sus look. They work best as quick reactions, one face with no extra words.\n\nLooking for the biggest classics? The [shrug emoticons](/kaomoji/shrug.html), [lenny faces](/kaomoji/lenny-face.html), and [table flips](/kaomoji/table-flip.html) each have their own page. Tap any face here to copy it.",
+  "sections": [
+   {
+    "h": "Facepalm: for disbelief and embarrassment",
+    "p": "A facepalm face shows a hand covering the face. The face (－‸ლ) uses ლ as the hand, and (ーー;) shows the same mood with a sweat mark. People use a facepalm after a silly mistake, a bad joke, or something they cannot believe. If you are searching for a facepalm emoji, there is a picture version too (🤦), but the text facepalm is a kaomoji and looks the same in every app."
+   },
+   {
+    "h": "Deadpan, straight face and stone face",
+    "p": "Deadpan faces show no expression at all. A straight face like (・_・), a flat face like (－_－), a stone face like (◔_◔), and a stoic face like ( ´_ゝ`) all say I am not reacting. They are funny after something silly, because the lack of reaction is the joke."
+   },
+   {
+    "h": "Derp face and duck face",
+    "p": "The derp face ( ﾟдﾟ) is a blank, open-mouthed stare. The duck face (*￣з￣) puckers its lips. Both are silly faces for jokes between friends."
+   },
+   {
+    "h": "Sus faces and deal with it",
+    "p": "A sus face has wide, side-eyed eyes, like (⊙_◎) or (ʘ‿ʘ), and says I do not trust this. The deal with it face (⌐■_■) wears sunglasses to show cool confidence."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [slang and meme emoji](/emoji/slang-meme.html) page."
+   },
+   {
+    "h": "What these meme faces mean",
+    "p": "Here is how a few of them are put together:",
+    "list": [
+     "(－‸ლ): the ლ at the end is a hand over the face, a facepalm.",
+     "(・_・): two dots for eyes and a dot for a mouth, so there is no expression.",
+     "( ﾟдﾟ): the Cyrillic д makes a wide-open mouth, giving a shocked or blank stare.",
+     "(⌐■_■): the black squares are sunglasses, and ⌐ is the frame.",
+     "ಠ‿ಠ: the Kannada letter ಠ works as a wide eye, and ‿ adds a suspicious smile."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is a facepalm kaomoji?",
+    "a": "It is a text face that shows a hand over the face, used for disbelief or embarrassment."
+   },
+   {
+    "q": "What does the sus face mean?",
+    "a": "A sus face is a suspicious look with wide, sideways eyes. It means something seems wrong or fishy."
+   },
+   {
+    "q": "How do I use the deal with it face?",
+    "a": "Send it after a confident or cheeky statement. The sunglasses make it feel like a mic drop."
+   },
+   {
+    "q": "Where are the shrug and table flip?",
+    "a": "They have their own pages: shrug emoticons and table flip kaomoji."
+   },
+   {
+    "q": "Why do some meme faces show boxes?",
+    "a": "Some use rare characters that older fonts miss. Try another face, or update your system."
+   }
+  ],
+  "blurb": "Facepalm, deadpan, derp and sus faces",
+  "related": [
+   "shrug",
+   "lenny-face",
+   "table-flip",
+   "sassy"
+  ]
+ },
+ {
+  "slug": "aesthetic",
+  "label": "Aesthetic",
+  "group": "More little things",
+  "icon": "✧",
+  "side": "Aesthetic & sparkles",
+  "keywords": "star emoticon star emoticons star kaomoji sparkle sparkles flower emoticon ribbon emoticon aesthetic emoticons kaomoji aesthetic",
+  "title": "Aesthetic Kaomoji: Star, Sparkle and Flower Emoticons",
+  "description": "Copy and paste aesthetic kaomoji and emoticons with stars, sparkles, flowers and ribbons. Tap a face to copy it. Free, no sign-up.",
+  "h1": "Aesthetic kaomoji",
+  "intro": "Aesthetic kaomoji, also called aesthetic emoticons, lean on decoration: stars, sparkles, flowers, ribbons, and soft symbols around a gentle face. They suit bios, captions, and messages that want a dreamy mood.\n\nTap a face to copy it. Some items here are only sparkles, with no face at all, so you can mix them with your own words.",
+  "sections": [
+   {
+    "h": "Star emoticons and star kaomoji",
+    "p": "Star kaomoji use ★, ☆, and ✩ as eyes or as decoration, like (★ω★) and ⋆｡°✩. They look good at the end of a sentence or around a short phrase."
+   },
+   {
+    "h": "Sparkles and glitter",
+    "p": "Kaomoji sparkles, ✧･ﾟ: *✧･ﾟ:* , add a magical feel. Try them before or after a caption to make it stand out."
+   },
+   {
+    "h": "Flower and ribbon emoticons",
+    "p": "Flower emoticons use ✿ and ❀ for a spring or cottage look. Ribbon emoticons use a ribbon emoji beside a cute face. For simple faces without decoration, see [cute kaomoji](/kaomoji/cute.html)."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [cute and aesthetic emoji](/emoji/cute-aesthetic.html) page."
+   },
+   {
+    "h": "What these aesthetic kaomoji mean",
+    "p": "Here is how a few of the faces on this page are put together:",
+    "list": [
+     "(★ω★): ★ eyes show star-struck wonder.",
+     "✧･ﾟ: *✧･ﾟ:*: sparkles only, used as decoration.",
+     "✿◕ ‿ ◕✿: ✿ flowers frame a sweet face.",
+     "(｡•ᴗ•｡)🎀: a ribbon emoji adds a bow.",
+     "୨♡୧: ୨ and ୧ frame a heart, like a tiny wreath."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What are aesthetic kaomoji?",
+    "a": "They are kaomoji with extra decoration, like stars, flowers, and sparkles, made to look soft and stylish."
+   },
+   {
+    "q": "How do I use star emoticons in a bio?",
+    "a": "Copy the face and paste it at the end of a line. Keep it short so the symbols do not push your text out of view."
+   },
+   {
+    "q": "Do sparkles and stars work on every device?",
+    "a": "Most do, but a few small symbols may show as boxes on older devices. Try another one if that happens."
+   },
+   {
+    "q": "Can I use aesthetic kaomoji on TikTok and Instagram?",
+    "a": "Yes. They are text, so you can use them in bios, captions, and comments."
+   }
+  ],
+  "blurb": "Stars, sparkles, flowers and ribbons",
+  "related": [
+   "cute",
+   "love",
+   "happy",
+   "bunnies"
+  ]
+ },
+ {
+  "slug": "shrug",
+  "label": "Shrug emoticons",
+  "group": "More little things",
+  "icon": "¯",
+  "side": "Shrug emoticons",
+  "keywords": "shrug emoticon shrug emoticons shrugging emoji shrug emoji shrugging shrug meme idk whatever",
+  "title": "Shrug Emoticon and Shrugging Kaomoji to Copy and Paste",
+  "description": "Copy and paste the shrug emoticon ¯\\_(ツ)_/¯ and other shrugging kaomoji for idk, whatever and helpless moments. Tap a face to copy it.",
+  "h1": "Shrug emoticon",
+  "intro": "The shrug is one of the most famous text faces on the internet. The classic ¯\\_(ツ)_/¯ says I do not know, whatever, or what can you do. This page collects the shrug emoticon and its many variants.\n\nTap a face to copy it. The shrug is awkward to type because of its backslash and katakana character, so copying is the easiest way.",
+  "sections": [
+   {
+    "h": "How the shrug emoticon is built",
+    "p": "In ¯\\_(ツ)_/¯, the katakana ツ looks like a smiling face. The characters on each side of the face form the arms and shoulders, and the underscores are the hands. Put together, the face looks like someone shrugging."
+   },
+   {
+    "h": "Shrug emoji and shrugging emoji",
+    "p": "If you are searching for a shrug emoji, there is a picture version (🤷), and it changes look from one device to another. The text shrug is a kaomoji, so it looks the same everywhere. You can also use both in the same message."
+   },
+   {
+    "h": "Shrugging faces for different moods",
+    "p": "A calm shrug like ┐( ˘_˘)┌ says why not. A nervous shrug like ┐(‘～`；)┌ adds a sweat mark. A helpless shrug like ╮(╯_╰)╭ shows you cannot fix it. A happy shrug like ╮(︶▽︶)╭ says it is fine either way."
+   },
+   {
+    "h": "Why the shrug loses its arm",
+    "p": "In Discord, Slack, and other apps that use markdown, a backslash before an underscore can be read as formatting, which hides the arm. Type a second backslash, or paste the face inside a code block, to keep it whole. Or use a version without a backslash, like ┐(´д｀)┌."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [thinking and confused emoji](/emoji/thinking-confused.html) page."
+   },
+   {
+    "h": "What these shrugging faces mean",
+    "p": "A few of the faces on this page, explained:",
+    "list": [
+     "¯\\_(ツ)_/¯: the classic shrug. The face in the middle smiles a little, so it means whatever, with no worry.",
+     "┐(´д｀)┌: the ┐ and ┌ marks are shoulders raised in a shrug, and the д makes a sighing mouth.",
+     "╮(╯_╰)╭: the ╮ and ╭ marks are lifted shoulders, and the ╯ and ╰ marks are tired eyes, a helpless shrug.",
+     "ヽ(ー_ー )ノ: raised arms with flat eyes show a relaxed, whatever shrug.",
+     "¯\\_(⊙︿⊙)_/¯: wide eyes and a wobbly mouth show a worried shrug."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the shrug emoticon?",
+    "a": "It is the text face ¯\\_(ツ)_/¯, used to say I do not know or whatever."
+   },
+   {
+    "q": "How do I type the shrug emoticon?",
+    "a": "Copy it from this page. Typing it by hand is difficult because of the backslash and the katakana character."
+   },
+   {
+    "q": "Is there a shrug emoji?",
+    "a": "Yes. The person shrugging emoji (🤷) is a picture. The text shrug is a kaomoji and looks the same on every device."
+   },
+   {
+    "q": "Why does the shrug look broken on Discord?",
+    "a": "Discord reads a backslash before an underscore as formatting. Add a second backslash, or paste the shrug inside a code block."
+   },
+   {
+    "q": "What does the shrug mean?",
+    "a": "It means I do not know, I do not mind, or there is nothing to be done. The tone depends on the face you choose."
+   }
+  ],
+  "blurb": "The classic shrug and its variants",
+  "related": [
+   "meme",
+   "sassy",
+   "lenny-face",
+   "sad"
+  ]
+ },
+ {
+  "slug": "lenny-face",
+  "label": "Lenny faces",
+  "group": "More little things",
+  "icon": "ʖ",
+  "side": "Lenny faces",
+  "keywords": "lenny face lenny faces lenny meme",
+  "title": "Lenny Face and Lenny Faces to Copy and Paste",
+  "description": "Copy and paste the lenny face ( ͡° ͜ʖ ͡°) and its variants: sad lenny, wink lenny, happy lenny and more. Tap a face to copy it. Free to use.",
+  "h1": "Lenny face",
+  "intro": "The lenny face ( ͡° ͜ʖ ͡°) is a cheeky, knowing look that spread through internet forums in the early 2010s. It is usually used as a joke or a playful hint.\n\nThis page has the classic lenny face and its variants. Tap a face to copy it. If one looks off in your app, see the questions below.",
+  "sections": [
+   {
+    "h": "How the lenny face is built",
+    "p": "The lenny face uses degree signs as eyes and the letter ʖ as a mouth. Small combining marks above the eyes bend over the face, giving it a raised-eyebrow look. These marks are what make the face tricky to type and easy to break."
+   },
+   {
+    "h": "Lenny face variants",
+    "p": "Variants change the eyes or add decoration: a sad lenny, a wink lenny, a happy lenny, a wide-eyed lenny, and even a lenny bear. Pick the one that fits your joke."
+   },
+   {
+    "h": "When to use the lenny face",
+    "p": "Lenny faces suit light, joking moments:",
+    "list": [
+     "As a playful hint between friends",
+     "After a cheeky joke",
+     "As a reaction to something silly or suspicious",
+     "Because the tone can read as suggestive, avoid it in formal or work chats."
+    ]
+   },
+   {
+    "h": "What these lenny faces mean",
+    "p": "How the variants differ:",
+    "list": [
+     "( ͡° ͜ʖ ͡°): the classic. Degree-sign eyes and the ʖ mouth give a knowing smirk.",
+     "( ͡° ʖ̯ ͡°): a flatter mouth makes the sad lenny.",
+     "( ͡~ ͜ʖ ͡°): one eye is a tilde, so the lenny winks.",
+     "( ͡ᵔ ͜ʖ ͡ᵔ ): curved eyes make a happy, smiling lenny.",
+     "( ͡° ᴥ ͡°): the ᴥ mouth gives a bear-like lenny."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the lenny face?",
+    "a": "The lenny face is a meme face, ( ͡° ͜ʖ ͡°), used for a cheeky or knowing look. It became popular on internet forums in the early 2010s."
+   },
+   {
+    "q": "Why does the lenny face look broken?",
+    "a": "It uses combining marks that some apps draw badly. If it looks off, try another variant or a different app."
+   },
+   {
+    "q": "How do I type the lenny face?",
+    "a": "Copy it from this page. It uses combining characters that are hard to type by hand."
+   },
+   {
+    "q": "Is the lenny face rude?",
+    "a": "It is meant as cheeky, but some people read it as suggestive. Use it with friends and avoid it in formal chats."
+   },
+   {
+    "q": "Are there other lenny faces?",
+    "a": "Yes. Many variants change the eyes or add objects, such as the sad, wink, and happy ones on this page."
+   }
+  ],
+  "blurb": "The lenny face and its variants",
+  "related": [
+   "meme",
+   "sassy",
+   "shrug",
+   "table-flip"
+  ]
+ },
+ {
+  "slug": "table-flip",
+  "label": "Table flips",
+  "group": "More little things",
+  "icon": "┻",
+  "side": "Table flips",
+  "keywords": "table flip table flipping flipping tables table flipped flip meme angry flip",
+  "title": "Table Flip Kaomoji and Table Flipping Faces to Copy",
+  "description": "Copy and paste the table flip (╯°□°）╯︵ ┻━┻ and other table flipping kaomoji, plus the calm face that puts the table back.",
+  "h1": "Table flip kaomoji",
+  "intro": "The table flip (╯°□°）╯︵ ┻━┻ is the text face for rage, frustration, and giving up. It shows a figure throwing a table, and it is almost always used as a joke.\n\nTap a face to copy it. For balance, there is also a calm face that puts the table back.",
+  "sections": [
+   {
+    "h": "How the table flip is built",
+    "p": "In (╯°□°）╯︵ ┻━┻, the face (°□°) has round eyes and a square mouth. The ╯ is a raised arm, ︵ is the flying motion, and ┻━┻ is the table, upside down. The table starts as ┬─┬ and ends up flipped."
+   },
+   {
+    "h": "Putting the table back",
+    "p": "The calm partner ┬─┬ノ( º _ ºノ) shows someone setting the table upright again. People send it after a table flip to say they have cooled down, or to reply to a friend who flipped one."
+   },
+   {
+    "h": "Angry, sad and double table flips",
+    "p": "Table flipping comes in many moods, so if you are searching for flipping tables, you will find a face for each. Variants change the mood: an angry flip, a shocked flip, a sad flip, and a double table flip for when one is not enough. See [angry face kaomoji](/kaomoji/angry.html) for other mad faces."
+   },
+   {
+    "h": "What these table flips mean",
+    "p": "How a few flips differ:",
+    "list": [
+     "(╯°□°）╯︵ ┻━┻: the classic. Surprised eyes and a raised arm launch the table.",
+     "(ノಠ益ಠ)ノ彡┻━┻: ಠ益ಠ is a furious face, and 彡 shows the table flying.",
+     "(┛◉Д◉)┛彡┻━┻: wide ◉ eyes and a Д mouth show shock while flipping.",
+     "(ﾉಥ益ಥ）ﾉ ┻━┻: ಥ eyes are tears, so this is a sad, crying flip.",
+     "┬─┬ノ( º _ ºノ): the calm reset, putting the table back."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the table flip kaomoji?",
+    "a": "It is a text face that shows someone throwing a table in anger or frustration."
+   },
+   {
+    "q": "How do I flip a table in text?",
+    "a": "Copy the face from this page and paste it. Typing it by hand needs several special symbols."
+   },
+   {
+    "q": "What is the face that puts the table back?",
+    "a": "It is ┬─┬ノ( º _ ºノ), a calm face that sets the table upright again."
+   },
+   {
+    "q": "What does the table flip mean?",
+    "a": "It shows anger or frustration in a dramatic, funny way. The matching face that puts the table back shows you have calmed down."
+   },
+   {
+    "q": "Why do table flips show boxes on some devices?",
+    "a": "The box-drawing symbols need a font with line characters. Most devices have one, so try another app if you see boxes."
+   }
+  ],
+  "blurb": "Table flips and the calm reset",
+  "related": [
+   "angry",
+   "meme",
+   "shrug",
+   "sad"
+  ]
+ },
+ {
+  "slug": "love-hearts",
+  "label": "Love and heart emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Hearts in every color, kisses and love notes",
+  "related": [
+   "cute-aesthetic",
+   "happy-smile",
+   "crying-sad"
+  ],
+  "keywords": "love emoji heart emoji hearts kiss heart eyes love messages red heart",
+  "title": "Love Emoji and Heart Emoji: Copy and Paste Hearts and Kisses",
+  "description": "Copy and paste love emoji and heart emoji: red, pink and colored hearts, kisses, heart eyes and love messages. Tap an emoji to copy it. Free.",
+  "h1": "Love emoji and heart emoji",
+  "intro": "Love emoji are the quickest way to add warmth to a message. Looking for emojis for love? You will find hearts, kisses, and sweet messages here. A single heart can say I love you, thank you, or I am thinking of you, and a row of hearts can say even more. This page collects heart emoji in every color, plus kisses, heart eyes, and a few ready-made love messages you can copy and paste.\n\nTap any emoji to copy it. Use the heart on a card to save it, or the filter box to look for a color or a feeling, like kiss, sparkling, or broken.",
+  "sections": [
+   {
+    "h": "Heart emoji colors and what they mean",
+    "p": "The red heart ❤️ is the classic sign of love, and the safest choice for partners, family, and close friends. Orange 🧡, yellow 💛, and green 💚 hearts are often used for friendship, happiness, and care. Blue 💙 and purple 💜 hearts feel calm and loyal. The black 🖤 heart is used for dark humor or a stylish look, and the white 🤍 heart for soft, pure feelings. Colors can mean different things in different communities, such as fan groups, so match the meaning to the people you are talking to. If you are looking for emojis with hearts, a hearts emoji in a bright color is the simplest way to show you care."
+   },
+   {
+    "h": "Kisses, heart eyes and sparkling hearts",
+    "p": "Faces add emotion to a heart. 😍 heart eyes shows you adore something, 🥰 smiling face with hearts feels warm and affectionate, and 😘 face blowing a kiss is a friendly or romantic goodbye. Sparkling hearts like 💖 and growing hearts like 💗 suit sweet, excited messages, while 💔 broken heart shows heartbreak or sadness."
+   },
+   {
+    "h": "Love emoji text and emoji love messages you can copy",
+    "p": "Short emoji messages are popular in chats and captions. Try 💌💕 for a love note, 🥰💞 for a warm hello, or 😘💋 for a goodbye kiss. They are in the list above with the label combo. Keep a message short so the meaning stays clear."
+   },
+   {
+    "h": "Love emoji or love kaomoji?",
+    "p": "Emoji are small pictures, and kaomoji are text faces built from symbols. Both work for love messages. If you want a hug or a kiss drawn in text, try [love kaomoji and heart emoticons](/kaomoji/love.html)."
+   },
+   {
+    "h": "What these love emoji mean",
+    "p": "A quick guide to the most popular ones:",
+    "list": [
+     "❤️ red heart: love, affection, and thanks.",
+     "💕 two hearts: affection and happiness, often for couples or friends.",
+     "💞 revolving hearts: a warm, flowing kind of love.",
+     "💘 heart with arrow: falling in love, or a crush.",
+     "💝 heart with ribbon: a gift of love, or deep appreciation.",
+     "❤️‍🔥 heart on fire: passion and strong feeling.",
+     "💔 broken heart: sadness, heartbreak, or disappointment."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does the red heart emoji mean?",
+    "a": "It means love and affection. People also use it to say thank you or to show support."
+   },
+   {
+    "q": "What do the different colored hearts mean?",
+    "a": "Red is romantic love, while other colors are often used for friendship, care, or a favorite team. Meanings can vary by community."
+   },
+   {
+    "q": "Which heart emoji is best for a crush?",
+    "a": "Heart eyes 😍 and the heart with arrow 💘 are popular for a crush. Keep it light if you are not sure how the other person feels."
+   },
+   {
+    "q": "Why do emoji look different on iPhone and Android?",
+    "a": "Each company draws its own version of every emoji. The meaning stays the same, but the style can change."
+   },
+   {
+    "q": "Can I paste heart emoji into any app?",
+    "a": "Yes, almost every chat, social, and writing app accepts emoji. Very old devices may show a box for newer ones."
+   }
+  ]
+ },
+ {
+  "slug": "crying-sad",
+  "label": "Crying and sad emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Tears, sadness and quiet sighs",
+  "related": [
+   "love-hearts",
+   "tired-sleepy",
+   "angry",
+   "shocked-scared"
+  ],
+  "keywords": "crying emoji cry emoji sad emoji sadness emoji sob sobbing tears worried",
+  "title": "Crying and Sad Emoji: Copy and Paste Faces With Tears",
+  "description": "Copy and paste crying emoji and sad emoji: tears, sobbing, pleading and worried faces, and what each one means. Tap an emoji to copy it.",
+  "h1": "Crying and sad emoji",
+  "intro": "Crying emoji show sadness, but they also show laughter, relief, and being overwhelmed. This page has the sad emoji, the crying emoji, and the faces in between, with a note on how each one is usually used.\n\nTap any emoji to copy it. Use the filter box to search by feeling, like tears, worried, or sob.",
+  "sections": [
+   {
+    "h": "Crying emoji and sob emoji",
+    "p": "The crying face 😢 shows a single tear and plain sadness. The loudly crying face 😭 shows heavy tears and sobbing, but many people also use it to mean laughing so hard they are crying, or being overwhelmed by something sweet or funny. The sob emoji can therefore be sad or playful, so read the context. People also search for the cry emoji, and the official name for it is simply crying face 😢. The sobbing emoji 😭 is its louder cousin."
+   },
+   {
+    "h": "Sad emoji for different kinds of sadness",
+    "p": "Not every sad emoji is the same. The disappointed face 😞 and pensive face 😔 show quiet sadness. The worried face 😟 and anxious face with sweat 😰 show nerves. The pleading face 🥺 asks for something, or shows that you are touched. Pick the one that matches how strong the feeling is. These sad emojis, along with a sadness emoji like 😞, cover quiet disappointment as well as strong grief."
+   },
+   {
+    "h": "Bittersweet and relieved faces",
+    "p": "The smiling face with tear 🥲 mixes a smile and a tear. People use it for pride, relief, and bittersweet moments. The sad but relieved face 😥 shows relief after stress."
+   },
+   {
+    "h": "Crying emoji or sad kaomoji?",
+    "p": "If you like text faces, [sad kaomoji](/kaomoji/sad.html) have tears, sighs, and sobbing in text form. Emoji and kaomoji work well together."
+   },
+   {
+    "h": "What these crying and sad emoji mean",
+    "p": "A short guide:",
+    "list": [
+     "😢 crying face: sadness, a single tear.",
+     "😭 loudly crying face: heavy crying, or laughing and feeling overwhelmed.",
+     "🥲 smiling face with tear: pride, relief, or bittersweet feelings.",
+     "🥺 pleading face: begging, or being touched.",
+     "😞 disappointed face: quiet disappointment.",
+     "😰 anxious face with sweat: worry and nerves.",
+     "💔 broken heart: heartbreak."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does the crying emoji mean?",
+    "a": "It usually means sadness, but the loudly crying face is also used for laughing hard or feeling overwhelmed."
+   },
+   {
+    "q": "What is the difference between 😢 and 😭?",
+    "a": "😢 shows one tear and quiet sadness. 😭 shows heavy crying, and in slang it can also mean something is very funny or touching."
+   },
+   {
+    "q": "What does the smiling face with a tear mean?",
+    "a": "It means a mix of happy and sad, such as pride, relief, or a bittersweet memory."
+   },
+   {
+    "q": "Which emoji should I use to say sorry?",
+    "a": "A gentle face like the pleading face 🥺 or the pensive face 😔, paired with a few words, works best."
+   },
+   {
+    "q": "Is there a sad emoji for a cat?",
+    "a": "Yes. The crying cat face 😿 is a sad cat emoji."
+   }
+  ]
+ },
+ {
+  "slug": "happy-smile",
+  "label": "Happy, smiling and laughing emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Smiles, laughs and celebration",
+  "related": [
+   "love-hearts",
+   "cute-aesthetic",
+   "slang-meme",
+   "cat"
+  ],
+  "keywords": "happy emoji smiling emoji smile emoji laughing emoji laugh emoji smileys grin",
+  "title": "Happy, Smiling and Laughing Emoji to Copy and Paste",
+  "description": "Copy and paste happy emoji, smiling emoji and laughing emoji, from a calm smile to rolling on the floor laughing. Tap an emoji to copy it.",
+  "h1": "Happy, smiling and laughing emoji",
+  "intro": "Smiling emoji are the most used emoji of all. They set a friendly tone, soften a message, and show that you are happy. This page groups the happy emoji from calm smiles to loud laughter, so you can pick the exact level of joy.\n\nTap any emoji to copy it. Use the filter box to look for words like smile, laugh, or party.",
+  "sections": [
+   {
+    "h": "Smile emoji from calm to big",
+    "p": "The slightly smiling face 🙂 is a gentle, polite smile, and the smiling face with smiling eyes 😊 feels warmer. The grinning faces 😀, 😃, and 😄 show more joy, and the beaming face 😁 is a wide, proud grin. Sometimes the slightly smiling face can read as sarcastic, so add a word if the tone matters."
+   },
+   {
+    "h": "Laughing emoji",
+    "p": "The face with tears of joy 😂 is the best known laughing emoji. The rolling on the floor laughing face 🤣 shows even bigger laughter. The grinning face with sweat 😅 shows nervous laughter or relief after a close call. Many people call 😂 the laughing crying emoji, and 😄 or 🤣 are also popular as a laugh emoji. A happy face emoji like 😊 is a gentler choice."
+   },
+   {
+    "h": "Celebration and cool faces",
+    "p": "Use 🥳 for parties and birthdays, 🤩 when you are amazed, and 😎 for a cool, confident mood. The smiling face with halo 😇 shows innocence, often as a joke."
+   },
+   {
+    "h": "Happy emoji or happy kaomoji?",
+    "p": "For text versions, see [happy kaomoji](/kaomoji/happy.html). You can use both in one message."
+   },
+   {
+    "h": "What these happy emoji mean",
+    "p": "A short guide:",
+    "list": [
+     "😀 grinning face: simple happiness.",
+     "😊 smiling face with smiling eyes: warm, friendly joy.",
+     "😂 face with tears of joy: laughing hard.",
+     "🤣 rolling on the floor laughing: laughing even harder.",
+     "😅 grinning face with sweat: nervous laughter or relief.",
+     "🥳 partying face: celebration.",
+     "😎 smiling face with sunglasses: cool and confident."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does the smiling emoji mean?",
+    "a": "It means happiness or friendliness. The exact feeling depends on the version, from a calm smile to a big grin."
+   },
+   {
+    "q": "What is the difference between 😂 and 🤣?",
+    "a": "Both show laughing. 🤣 is a bigger, wilder laugh, as if you are rolling on the floor."
+   },
+   {
+    "q": "Is the slightly smiling face sarcastic?",
+    "a": "Sometimes. In some chats it looks polite, and in others it looks passive-aggressive, so context matters."
+   },
+   {
+    "q": "Which emoji is best for good news?",
+    "a": "The partying face 🥳 or the star-struck face 🤩 suits good news well."
+   },
+   {
+    "q": "Do smiling emoji work in work chats?",
+    "a": "Yes, simple smiles like 🙂 and 😊 are usually fine in friendly work chats."
+   }
+  ]
+ },
+ {
+  "slug": "cute-aesthetic",
+  "label": "Cute and aesthetic emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Flowers, stars, ribbons and soft combos",
+  "related": [
+   "love-hearts",
+   "cat",
+   "happy-smile"
+  ],
+  "keywords": "cute emoji aesthetic emoji cute emojis aesthetic emojis flowers ribbon sparkles bio",
+  "title": "Cute and Aesthetic Emoji to Copy and Paste",
+  "description": "Copy and paste cute emoji and aesthetic emoji: flowers, ribbons, stars, sparkles and soft combos for bios and captions. Tap an emoji to copy it.",
+  "h1": "Cute and aesthetic emoji",
+  "intro": "Cute emoji are the soft, small ones people use in bios, captions, and notes: ribbons, flowers, stars, berries, and little animals. Aesthetic emoji are the same idea with a theme, such as pink and soft, dreamy and night-time, or fresh and green.\n\nTap any emoji to copy it. The list also has ready-made combos, so you can paste a whole mood in one tap.",
+  "sections": [
+   {
+    "h": "Pick a theme",
+    "p": "Aesthetic emoji look best when they share a theme. A soft pink theme uses 🌸, 🎀, and 🍓. A dreamy theme uses 🌙, ☁️, and ✨. A fresh, natural theme uses 🌱, 🍀, and 🌼. Two or three emoji from one theme look cleaner than a random mix. Choosing an emoji aesthetic is mostly about picking colors and moods that go together. Cute emojis in one family, and aesthetic emojis that share a color, look the most polished."
+   },
+   {
+    "h": "Use them in bios and captions",
+    "p": "Place an emoji at the end of a line or between short words. Keep it light, since a bio has limited space. Cute combos like 🌸✨ or 🎀🍓 are quick ways to add style."
+   },
+   {
+    "h": "Cute emoji or cute symbols and kaomoji?",
+    "p": "Emoji are pictures, while symbols like ♡ and ✧ are text, and cute kaomoji combine both ideas. For text styles, see [aesthetic kaomoji](/kaomoji/aesthetic.html) and [cute kaomoji](/kaomoji/cute.html)."
+   },
+   {
+    "h": "What these cute emoji mean",
+    "p": "Some popular picks and how people use them:",
+    "list": [
+     "🎀 ribbon: a soft, girly, or gift-like touch.",
+     "🌸 cherry blossom: spring, softness, and gentle beauty.",
+     "✨ sparkles: something special, new, or magical.",
+     "🧸 teddy bear: comfort and cuteness.",
+     "🦋 butterfly: change, lightness, and beauty.",
+     "🍓 strawberry: sweet and cute, often used with pink themes.",
+     "🌙 crescent moon: night, calm, and dreams."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What are aesthetic emoji?",
+    "a": "They are emoji chosen to match a visual mood, such as soft pink, dreamy night, or fresh and natural."
+   },
+   {
+    "q": "What are the best cute emoji for a bio?",
+    "a": "Ribbons, flowers, stars, and sparkles are popular, such as 🎀, 🌸, ⭐, and ✨."
+   },
+   {
+    "q": "How many emoji should I use?",
+    "a": "Two to four usually looks clean. Too many can make a bio hard to read."
+   },
+   {
+    "q": "Do cute emoji work on every platform?",
+    "a": "Yes. They are standard emoji, though each platform draws them in its own style."
+   },
+   {
+    "q": "Can I combine emoji with symbols?",
+    "a": "Yes. Many people mix emoji with symbols like ♡ and ✧ for a softer look."
+   }
+  ]
+ },
+ {
+  "slug": "cat",
+  "label": "Cat emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Cat faces, paws and little lions",
+  "related": [
+   "cute-aesthetic",
+   "happy-smile",
+   "love-hearts"
+  ],
+  "keywords": "cat emoji cats emoji cat emojis kitty paw smiling cat crying cat",
+  "title": "Cat Emoji to Copy and Paste: Cats, Paws and Cat Faces",
+  "description": "Copy and paste cat emoji: cat faces, smiling cats, crying cats, paws, lions and tigers. See what each cat emoji means. Tap an emoji to copy it.",
+  "h1": "Cat emoji",
+  "intro": "Cat emoji are popular for pet posts, cute messages, and moods. Looking for a cats emoji for a pet photo? These cat emojis cover happy, sleepy, sad, and grumpy cats. There are cat faces with different feelings, a full cat, a black cat, and a few big cats. This page gathers them all in one place.\n\nTap any emoji to copy it. Use the filter box to look for words like smiling, crying, or paw.",
+  "sections": [
+   {
+    "h": "Cat face emoji and their moods",
+    "p": "The cat face 🐱 is the simple one. The grinning cat 😺 and the grinning cat with smiling eyes 😸 show happiness. The cat with tears of joy 😹 is laughing, and the smiling cat with heart-eyes 😻 is in love. The cat with wry smile 😼 is smug, the kissing cat 😽 sends a kiss, and the weary cat 🙀 is shocked."
+   },
+   {
+    "h": "Sad and grumpy cats",
+    "p": "The crying cat 😿 is a sad cat emoji, and the pouting cat 😾 is angry or grumpy. They are useful for jokes about bad days or hungry pets."
+   },
+   {
+    "h": "Paws, black cats and big cats",
+    "p": "The paw prints 🐾 add a cat or pet touch to any message. The black cat 🐈‍⬛ is used for cute or spooky posts. 🦁, 🐯, and 🐆 are the big cats, good for strong or playful moods."
+   },
+   {
+    "h": "Cat emoji or cat kaomoji?",
+    "p": "For text cats with whiskers and paws, see [cat kaomoji](/kaomoji/cats.html). Together with emoji, they make pet posts more fun."
+   },
+   {
+    "h": "What these cat emoji mean",
+    "p": "A quick guide:",
+    "list": [
+     "🐱 cat face: a cute cat, or a general pet.",
+     "😺 grinning cat: happy and pleased.",
+     "😹 cat with tears of joy: laughing hard.",
+     "😻 smiling cat with heart-eyes: in love.",
+     "😼 cat with wry smile: smug or sneaky.",
+     "😿 crying cat: sad.",
+     "🐾 paw prints: pets, tracks, and playful footsteps."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does the cat emoji mean?",
+    "a": "It stands for cats and pets, and people also use it for cuteness and playful moods."
+   },
+   {
+    "q": "Is there a sad cat emoji?",
+    "a": "Yes. The crying cat face 😿 is the sad cat emoji."
+   },
+   {
+    "q": "What is the black cat emoji?",
+    "a": "It is 🐈‍⬛, a full black cat, often used for cute or spooky posts."
+   },
+   {
+    "q": "What does the heart-eyes cat mean?",
+    "a": "The smiling cat with heart-eyes 😻 shows love or adoration, often for a pet or something cute."
+   },
+   {
+    "q": "Which emoji is best for paw prints?",
+    "a": "Use 🐾 for paw prints. It works for cats, dogs, and other pets."
+   }
+  ]
+ },
+ {
+  "slug": "angry",
+  "label": "Angry and annoyed emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Mad, annoyed and eye-roll faces",
+  "related": [
+   "crying-sad",
+   "thinking-confused",
+   "slang-meme",
+   "shocked-scared"
+  ],
+  "keywords": "angry emoji mad emoji annoyed emoji annoying emoji rage pout eye roll",
+  "title": "Angry Emoji and Annoyed Emoji to Copy and Paste",
+  "description": "Copy and paste angry emoji and annoyed emoji: mad faces, rage, eye rolls and steam. See what each one means. Tap an emoji to copy it.",
+  "h1": "Angry and annoyed emoji",
+  "intro": "Angry emoji cover a range, from a small eye roll to full rage. Choosing the right one helps you avoid sounding harsher than you mean. This page lists the angry, annoyed, and frustrated emoji and what each one usually means.\n\nTap any emoji to copy it. Use the filter box to look for words like rage, steam, or eye roll.",
+  "sections": [
+   {
+    "h": "Angry face emoji",
+    "p": "The angry face 😠 shows plain anger. The enraged face 😡 is red with rage and is the strongest. The face with symbols on mouth 🤬 shows swearing in a comic way. The angry face with horns 👿 is angry in a playful, devilish way."
+   },
+   {
+    "h": "Annoyed and unamused emoji",
+    "p": "For smaller annoyance, use the unamused face 😒, the face with rolling eyes 🙄, or the expressionless face 😑. The grimacing face 😬 shows an awkward, tense moment."
+   },
+   {
+    "h": "Steam and frustration",
+    "p": "The face with steam from nose 😤 shows frustration, and many people also use it for determination. The anger symbol 💢 adds a veins-popping effect to any message. If something is annoying, an annoying emoji like 🙄 shows it without needing many words."
+   },
+   {
+    "h": "Angry emoji or angry kaomoji?",
+    "p": "For pouts and mad text faces, see [angry face kaomoji](/kaomoji/angry.html)."
+   },
+   {
+    "h": "Prefer emoji?",
+    "p": "Kaomoji are text, and emoji are pictures. If you want the picture version, see our [angry and annoyed emoji](/emoji/angry.html) page."
+   },
+   {
+    "h": "What these angry emoji mean",
+    "p": "A short guide:",
+    "list": [
+     "😠 angry face: plain anger.",
+     "😡 enraged face: strong rage.",
+     "🤬 face with symbols on mouth: furious, swearing.",
+     "😤 face with steam from nose: frustration or determination.",
+     "😒 unamused face: not impressed.",
+     "🙄 face with rolling eyes: annoyance or disbelief.",
+     "💢 anger symbol: a burst of anger."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does the angry emoji mean?",
+    "a": "It shows anger. The red enraged face 😡 is the strongest version."
+   },
+   {
+    "q": "What does 😤 mean?",
+    "a": "It can mean frustration, but it is also used to show determination or pride."
+   },
+   {
+    "q": "Which emoji shows annoyance?",
+    "a": "The unamused face 😒 and the face with rolling eyes 🙄 show mild annoyance."
+   },
+   {
+    "q": "Is the angry face with horns the same as the devil?",
+    "a": "The angry face with horns 👿 is a playful angry face. The smiling face with horns 😈 is mischievous."
+   },
+   {
+    "q": "Can angry emoji sound rude?",
+    "a": "Yes, they can. Pair them with a light word, or choose a milder face like 😒, if you want to stay friendly."
+   }
+  ]
+ },
+ {
+  "slug": "tired-sleepy",
+  "label": "Tired and sleeping emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Sleep, yawns and cozy tired faces",
+  "related": [
+   "crying-sad",
+   "cute-aesthetic",
+   "thinking-confused"
+  ],
+  "keywords": "tired emoji tiredness emoji sleeping emoji sleep emoji yawn weary exhausted",
+  "title": "Tired Emoji and Sleeping Emoji to Copy and Paste",
+  "description": "Copy and paste tired emoji, sleeping emoji and yawning faces for naps, late nights and long days. See what each one means. Tap an emoji to copy it.",
+  "h1": "Tired and sleeping emoji",
+  "intro": "Tired emoji help you say you are sleepy, worn out, or done for the day. This page covers the sleeping emoji, the yawning face, the weary faces, and cozy extras like a warm drink.\n\nTap any emoji to copy it. Use the filter box to look for words like yawn, sleep, or weary.",
+  "sections": [
+   {
+    "h": "Sleeping emoji",
+    "p": "The sleeping face 😴 shows someone fast asleep, and 💤 adds zzz. The sleepy face 😪 has a bubble of snot and shows drowsiness. 🛌 shows a person in bed, a good choice for good night messages. The tiredness emoji most people use is the weary face 😩, and a sleep emoji like 😴 or 💤 shows actual sleep."
+   },
+   {
+    "h": "Tired and weary emoji",
+    "p": "The yawning face 🥱 shows boredom or sleepiness. The tired face 😫 and the weary face 😩 show exhaustion and frustration. The face exhaling 😮‍💨 shows a big sigh, often from relief or fatigue."
+   },
+   {
+    "h": "Cozy extras",
+    "p": "A warm drink like ☕ or 🍵 suits slow mornings. 🌙 is a classic for good night messages."
+   },
+   {
+    "h": "Tired emoji or sleepy kaomoji?",
+    "p": "For cozy text faces, see [sleepy kaomoji](/kaomoji/sleepy.html)."
+   },
+   {
+    "h": "What these tired emoji mean",
+    "p": "A short guide:",
+    "list": [
+     "😴 sleeping face: fast asleep.",
+     "💤 zzz: sleeping, or boredom.",
+     "🥱 yawning face: sleepy or bored.",
+     "😪 sleepy face: drowsy.",
+     "😫 tired face: worn out and frustrated.",
+     "😮‍💨 face exhaling: a big sigh.",
+     "🛌 person in bed: time to sleep."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the tired emoji?",
+    "a": "The tired face 😫 and the weary face 😩 are the main tired emoji. The yawning face 🥱 shows sleepiness."
+   },
+   {
+    "q": "What does 💤 mean?",
+    "a": "It stands for sleeping, and it is also used when something is boring."
+   },
+   {
+    "q": "Which emoji should I use for good night?",
+    "a": "Try 😴, 🌙, or 🛌, with a short good night message."
+   },
+   {
+    "q": "What does the face exhaling mean?",
+    "a": "It shows a big sigh, for relief, tiredness, or giving up."
+   },
+   {
+    "q": "Is there a cozy emoji for tea or coffee?",
+    "a": "Yes. Use ☕ for coffee or 🍵 for tea."
+   }
+  ]
+ },
+ {
+  "slug": "shocked-scared",
+  "label": "Shocked, surprised and scared emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Gasps, mind blown and fear",
+  "related": [
+   "thinking-confused",
+   "angry",
+   "crying-sad"
+  ],
+  "keywords": "shocked emoji shock emoji surprised emoji scared emoji nervous gasp mind blown",
+  "title": "Shocked, Surprised and Scared Emoji to Copy and Paste",
+  "description": "Copy and paste shocked emoji, surprised emoji and scared emoji: gasps, mind blown, fear and dizzy faces. See what each one means. Tap to copy.",
+  "h1": "Shocked, surprised and scared emoji",
+  "intro": "Shocked emoji show how you react to surprise, from a small gasp to a mind-blowing moment. Some are happy, some are scary, and some are just awkward. This page sorts them so you can find the right level of shock.\n\nTap any emoji to copy it. Use the filter box to look for words like gasp, fear, or dizzy.",
+  "sections": [
+   {
+    "h": "Surprised and shocked faces",
+    "p": "The face with open mouth 😮 and the hushed face 😯 are gentle surprise. The astonished face 😲 is a bigger gasp. The flushed face 😳 shows shock or embarrassment, and the exploding head 🤯 shows a mind blown. The shock emoji 😲 and the surprised emoji 😮 are the two to start with. If you feel nervous, a nervous emoji like 😰 fits."
+   },
+   {
+    "h": "Scared and fearful faces",
+    "p": "The fearful face 😨 and the face screaming in fear 😱 show fear. The anxious face with sweat 😰 shows worry, and the anguished face 😧 shows distress."
+   },
+   {
+    "h": "Dizzy and awkward faces",
+    "p": "The dizzy face 😵 and the face with spiral eyes 😵‍💫 show confusion or feeling overwhelmed. The grimacing face 😬 and the zipper-mouth face 🤐 show an awkward moment."
+   },
+   {
+    "h": "Shocked emoji or surprised kaomoji?",
+    "p": "For text reactions, see [surprised kaomoji](/kaomoji/surprised.html)."
+   },
+   {
+    "h": "What these shocked emoji mean",
+    "p": "A short guide:",
+    "list": [
+     "😮 face with open mouth: mild surprise.",
+     "😲 astonished face: big shock.",
+     "😳 flushed face: shocked or embarrassed.",
+     "🤯 exploding head: mind blown.",
+     "😱 face screaming in fear: fear or big shock.",
+     "😰 anxious face with sweat: worry.",
+     "😬 grimacing face: an awkward moment."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does the shocked emoji mean?",
+    "a": "It shows surprise. The astonished face 😲 and the exploding head 🤯 are the strongest shocked emoji."
+   },
+   {
+    "q": "What does the flushed face mean?",
+    "a": "😳 means shock or embarrassment, and sometimes shy feelings."
+   },
+   {
+    "q": "What is the scared emoji?",
+    "a": "The fearful face 😨 and the face screaming in fear 😱 are the main scared emoji."
+   },
+   {
+    "q": "What does the exploding head mean?",
+    "a": "🤯 means your mind is blown, by news or an idea."
+   },
+   {
+    "q": "Which emoji is best for a surprise party?",
+    "a": "Try 🥳 or 😲, depending on whether you are the guest or the guest of honor."
+   }
+  ]
+ },
+ {
+  "slug": "thinking-confused",
+  "label": "Thinking and confused emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Hmm, huh and shrugs",
+  "related": [
+   "shocked-scared",
+   "angry",
+   "slang-meme"
+  ],
+  "keywords": "thinking emoji think emoji confused emoji confusing emoji hmm shrug question",
+  "title": "Thinking and Confused Emoji to Copy and Paste",
+  "description": "Copy and paste thinking emoji and confused emoji: hmm, raised eyebrow, shrugging and question marks. See what each one means. Tap to copy.",
+  "h1": "Thinking and confused emoji",
+  "intro": "Thinking emoji help you show doubt, curiosity, or plain confusion. They are useful when you want to ask a question, say you are not sure, or react to something strange.\n\nTap any emoji to copy it. Use the filter box to look for words like hmm, shrug, or question.",
+  "sections": [
+   {
+    "h": "Thinking face and friends",
+    "p": "The thinking face 🤔 means you are wondering or doubting. The face with monocle 🧐 looks closely, as if checking details. The face with raised eyebrow 🤨 shows suspicion or disbelief. Use the think emoji 🤔 when you wonder about something. A confusing emoji like 😕 fits when something does not make sense."
+   },
+   {
+    "h": "Confused and uncertain faces",
+    "p": "The confused face 😕 and the worried face 😟 show confusion. The neutral face 😐, the expressionless face 😑, and the face without mouth 😶 show no reaction, which can be funny or awkward."
+   },
+   {
+    "h": "Shrugging emoji",
+    "p": "The person shrugging 🤷 means I do not know. If you like the text version, copy the classic from our [shrug emoticons](/kaomoji/shrug.html) page."
+   },
+   {
+    "h": "What these thinking emoji mean",
+    "p": "A short guide:",
+    "list": [
+     "🤔 thinking face: wondering or doubting.",
+     "🧐 face with monocle: examining something closely.",
+     "🤨 face with raised eyebrow: suspicion.",
+     "😕 confused face: not sure.",
+     "🤷 person shrugging: I do not know.",
+     "🤫 shushing face: keep it quiet.",
+     "💭 thought balloon: thinking or dreaming."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does the thinking emoji mean?",
+    "a": "🤔 means you are thinking or doubting something."
+   },
+   {
+    "q": "What is the confused emoji?",
+    "a": "The confused face 😕 is the main one. The question marks ❓ and ❔ also show confusion."
+   },
+   {
+    "q": "What does the raised eyebrow emoji mean?",
+    "a": "🤨 shows suspicion or disbelief."
+   },
+   {
+    "q": "What is the shrugging emoji?",
+    "a": "The person shrugging 🤷 is the shrugging emoji, and there are male and female versions. For a text version, use the classic shrug kaomoji."
+   },
+   {
+    "q": "Which emoji should I use for I don't know?",
+    "a": "The shrug 🤷 is the clearest choice."
+   }
+  ]
+ },
+ {
+  "slug": "slang-meme",
+  "label": "Slang and meme emoji",
+  "group": "Emoji",
+  "dir": "emoji",
+  "blurb": "Skull, fire, cap and other slang",
+  "related": [
+   "happy-smile",
+   "angry",
+   "thinking-confused",
+   "crying-sad"
+  ],
+  "keywords": "skull emoji fire emoji cool emoji dead emoji slang meme cap clown",
+  "title": "Skull, Fire and Other Slang Emoji: Meanings to Copy",
+  "description": "Copy and paste slang emoji and their meanings: skull, fire, cap, clown, eyes and more. See how people really use them. Tap an emoji to copy it.",
+  "h1": "Slang and meme emoji",
+  "intro": "Some emoji have meanings that go beyond the picture. A skull can mean laughing, a fire can mean great, and a billed cap can mean a lie. This page explains the most common slang emoji so you can use them with the right tone.\n\nTap any emoji to copy it. Slang changes fast and differs between communities, so check how your friends use them.",
+  "sections": [
+   {
+    "h": "Skull and fire emoji",
+    "p": "The skull 💀 is often used for I am dead, meaning something is very funny. The skull and crossbones ☠️ can show danger or dark humor. The fire 🔥 means something is great, popular, or impressive. A dead emoji in slang is usually the skull 💀, and a cool emoji like 😎 works for confidence."
+   },
+   {
+    "h": "Cool, cold and hot",
+    "p": "The face with sunglasses 😎 means cool and confident. The cold face 🥶 can mean freezing, or being stylish in slang. The hot face 🥵 can mean very warm, or someone is attractive."
+   },
+   {
+    "h": "Cap, clown and eyes",
+    "p": "The billed cap 🧢 is used for cap, meaning a lie, and no cap means no lie. The clown face 🤡 calls something foolish. The eyes 👀 mean watching, or drama is coming."
+   },
+   {
+    "h": "Attitude emoji",
+    "p": "The nail polish 💅 shows you are unbothered or sassy. The pinched fingers 🤌 can mean chef's kiss, or a gesture of disbelief. The hundred points 💯 shows full agreement."
+   },
+   {
+    "h": "What these slang emoji mean",
+    "p": "Common meanings today:",
+    "list": [
+     "💀 skull: dead from laughing.",
+     "🔥 fire: excellent, trendy, impressive.",
+     "🧢 billed cap: a lie, as in cap.",
+     "🤡 clown face: acting foolish.",
+     "👀 eyes: watching or interested.",
+     "💅 nail polish: unbothered and confident.",
+     "💯 hundred points: agree completely."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does the skull emoji mean?",
+    "a": "In slang it usually means that something is very funny, as in I am dead."
+   },
+   {
+    "q": "What does the fire emoji mean?",
+    "a": "It means something is great, popular, or impressive."
+   },
+   {
+    "q": "What does the cap emoji mean?",
+    "a": "The billed cap 🧢 stands for cap, meaning a lie. No cap means no lie."
+   },
+   {
+    "q": "What does the clown emoji mean?",
+    "a": "The clown face 🤡 means someone is acting foolish, often as a joke about yourself."
+   },
+   {
+    "q": "Do slang emoji meanings change?",
+    "a": "Yes, often. Meanings shift by community and time, so check how your audience uses them."
+   }
+  ]
  }
 ]

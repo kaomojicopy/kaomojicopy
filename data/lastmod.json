@@ -1,78 +1,166 @@
 {
  "index.html": {
-  "h": "8b46672f6e9da7a5c72730c57c4c57c9",
-  "d": "2026-10-26"
+  "h": "09ad6a7d31f8efdef1d484b50538ef5b",
+  "d": "2026-11-05"
  },
  "kaomoji/happy.html": {
-  "h": "a648532da9fcce758114b8348b24e2ae",
-  "d": "2026-10-26"
+  "h": "19e3509e2092aea4da73ba097e773794",
+  "d": "2026-11-05"
  },
  "kaomoji/love.html": {
-  "h": "d139e45a04060d1b664a10d3eb6ffc24",
-  "d": "2026-10-26"
+  "h": "066b800b159faf4f4189c6438ff1cf4e",
+  "d": "2026-11-05"
  },
  "kaomoji/cute.html": {
-  "h": "39172542a5bc61215271915d1c646225",
-  "d": "2026-10-26"
+  "h": "50101d310c9b84a49284b378f65676f9",
+  "d": "2026-11-05"
  },
  "kaomoji/sad.html": {
-  "h": "90f7595a58249a857615344f3d747d9a",
-  "d": "2026-10-26"
+  "h": "31791ae4a5ab94944143944e9d15ab53",
+  "d": "2026-11-05"
  },
  "kaomoji/sleepy.html": {
-  "h": "d7e7449d51a8d6ac7c6d0572c64fb965",
-  "d": "2026-10-26"
+  "h": "d6a001f952d1cf04029ac2dcbff9150c",
+  "d": "2026-11-05"
  },
  "kaomoji/sassy.html": {
-  "h": "7c3c74d68bcf91e53dabde2c0e6f2941",
-  "d": "2026-10-26"
+  "h": "53856223e6c0312ad5f53b939d900945",
+  "d": "2026-11-05"
  },
  "kaomoji/angry.html": {
-  "h": "88f32f1e67d0d271f91a0688d9f6f386",
-  "d": "2026-10-26"
+  "h": "d4ef4b216aafad8fe3c094dc86e81b72",
+  "d": "2026-11-05"
  },
  "kaomoji/surprised.html": {
-  "h": "2a3297abd87cd012c76a06316db484d0",
-  "d": "2026-10-26"
+  "h": "3f3960497c725a7a505bdb5a4a073659",
+  "d": "2026-11-05"
  },
  "kaomoji/shy.html": {
-  "h": "1fa12a1772a2d5906791f8bf065d3aaf",
-  "d": "2026-10-26"
+  "h": "13c99beb3401036c28583259e5477cc4",
+  "d": "2026-11-05"
  },
  "kaomoji/cats.html": {
-  "h": "9759d0d55395b7579c29d06c869e0733",
-  "d": "2026-10-26"
+  "h": "a5151fcd6c1fe6b8a4c293c408be481d",
+  "d": "2026-11-05"
  },
  "kaomoji/bears.html": {
-  "h": "e21facd526c3dcfe647add3505e29d24",
-  "d": "2026-10-26"
+  "h": "5004c2767ea1016861b38970e1a54312",
+  "d": "2026-11-05"
  },
  "kaomoji/bunnies.html": {
-  "h": "ee5368d7a2722db8e17646df880c892f",
-  "d": "2026-10-26"
+  "h": "830be5fd00fda3ee1dc6df2d6ce49a65",
+  "d": "2026-11-05"
  },
  "kaomoji/party.html": {
-  "h": "6a56a2442868562273b9e9b6a126433b",
-  "d": "2026-10-26"
+  "h": "bbeebdb3ffd3f08662662007c0c55f33",
+  "d": "2026-11-05"
  },
  "kaomoji/greetings.html": {
-  "h": "00d1ae5cb83db521fee8ac74efd9921b",
-  "d": "2026-10-26"
+  "h": "469d5c076c6353565d8a7d6e739cb0ea",
+  "d": "2026-11-05"
  },
  "about.html": {
-  "h": "695ff413badf89ed50914ba8bc52289c",
-  "d": "2026-10-26"
+  "h": "6fb59a74870c442f98013853cb9bc14b",
+  "d": "2026-11-04"
  },
  "contact.html": {
-  "h": "f48e23131711360e9870dd163501c32b",
-  "d": "2026-10-26"
+  "h": "23814a6037a1d24bcb918fc253beec57",
+  "d": "2026-11-04"
  },
  "privacy.html": {
-  "h": "fa16fee18b1d4418ecd652fd1cbc76cb",
-  "d": "2026-10-26"
+  "h": "f34b3f05b833ab56f7bebe29a8d1529b",
+  "d": "2026-11-05"
  },
  "terms.html": {
-  "h": "09749bf7578f8ce68076a61c61d6e38f",
-  "d": "2026-10-26"
+  "h": "299c2088defe40dff6409192316863d6",
+  "d": "2026-11-04"
+ },
+ "kaomoji/meme.html": {
+  "h": "81c0e2a8ed1b43f18aa9666057fd784b",
+  "d": "2026-11-05"
+ },
+ "kaomoji/aesthetic.html": {
+  "h": "db917b83ff7ced34b64b0d60eda7cb0e",
+  "d": "2026-11-05"
+ },
+ "what-is-kaomoji.html": {
+  "h": "99020f5b88e5aa9838fb4474d137ba69",
+  "d": "2026-11-04"
+ },
+ "japanese-emoticons.html": {
+  "h": "3ae0f97715c39e079329307355e98f2e",
+  "d": "2026-11-04"
+ },
+ "how-to-copy-and-paste-kaomoji.html": {
+  "h": "12538263c5c0839ac6a5630377eceed0",
+  "d": "2026-11-04"
+ },
+ "kaomoji/shrug.html": {
+  "h": "3c4c28de6bef871d4d27635745b18c84",
+  "d": "2026-11-05"
+ },
+ "kaomoji/lenny-face.html": {
+  "h": "53dccf166c94115429188b2baf36c686",
+  "d": "2026-11-05"
+ },
+ "kaomoji/table-flip.html": {
+  "h": "00fce85867ecd4642e22f2967939b529",
+  "d": "2026-11-05"
+ },
+ "kaomoji-symbols.html": {
+  "h": "58e6c8eb168e8cede1f4d792caf54474",
+  "d": "2026-11-04"
+ },
+ "kaomoji-for-discord-instagram-tiktok.html": {
+  "h": "9fc218b2b05e6e77889a2b4fef66bfca",
+  "d": "2026-11-04"
+ },
+ "kaomoji-generator.html": {
+  "h": "0485a3254e8d4d283b2569cab79f95c7",
+  "d": "2026-11-04"
+ },
+ "emoji/love-hearts.html": {
+  "h": "d72b4ea1b0218ec3380eb39c8415d1e8",
+  "d": "2026-11-05"
+ },
+ "emoji/crying-sad.html": {
+  "h": "476158494c8bbd0d5b0adb2dfc1eadf8",
+  "d": "2026-11-05"
+ },
+ "emoji/happy-smile.html": {
+  "h": "3687458019645731358ce8572ac5b7f8",
+  "d": "2026-11-05"
+ },
+ "emoji/cute-aesthetic.html": {
+  "h": "fa3452ed5eb6361204f4bd09c71de860",
+  "d": "2026-11-05"
+ },
+ "emoji/cat.html": {
+  "h": "28317b9a739c88feb31938388caec410",
+  "d": "2026-11-05"
+ },
+ "emoji/angry.html": {
+  "h": "be3bc2a360f6139dae573f46de71d971",
+  "d": "2026-11-05"
+ },
+ "emoji/tired-sleepy.html": {
+  "h": "1e97c4ef5654ce669e2a5965b743414a",
+  "d": "2026-11-05"
+ },
+ "emoji/shocked-scared.html": {
+  "h": "9c6e06b750f25f09f625648ea18866e3",
+  "d": "2026-11-05"
+ },
+ "emoji/thinking-confused.html": {
+  "h": "48bba67a679d902e1ac56755dc58651e",
+  "d": "2026-11-05"
+ },
+ "emoji/slang-meme.html": {
+  "h": "d1644204910e02ca80b09fb31068dc7e",
+  "d": "2026-11-05"
+ },
+ "emoji-copy-and-paste.html": {
+  "h": "e55dffc1596a7dee5941df6c9bfa07ae",
+  "d": "2026-11-05"
  }
 }

@@ -87,6 +87,7 @@
       var t = f.dataset.favorite, had = favs.has(t);
       if (had) favs.delete(t); else favs.add(t);
       saveFavs(); onFavChange(); paintFavs();
+      document.dispatchEvent(new CustomEvent("kc:favchange"));
       announce((had ? "Removed " : "Added ") + t + (had ? " from" : " to") + " favorites");
       return;
     }
@@ -119,8 +120,13 @@
     if (clearBtn) clearBtn.addEventListener("click", function () { filter.value = ""; filter.dispatchEvent(new Event("input")); filter.focus(); });
     filter.addEventListener("input", function () {
       var qw = words(filter.value), n = 0;
+      /* a query that includes a generic word such as emoji or emoticon is about the whole collection */
+      var generic = filter.value.trim().split(/\s+/).filter(Boolean).length > qw.length;
+      /* otherwise match the card's own name first; only if nothing matches, fall back to the collection's keywords */
+      var own = function (c) { return qw.every(function (w) { return c.dataset.text.indexOf(w) > -1; }); };
+      var anyOwn = cards.some(own);
       cards.forEach(function (c) {
-        var show = qw.every(function (w) { return c.dataset.text.indexOf(w) > -1; });
+        var show = !qw.length || (anyOwn && !generic ? own(c) : qw.every(function (w) { return (c.dataset.text + " " + (c.dataset.kw || "")).indexOf(w) > -1; }));
         c.hidden = !show; if (show) n++;
       });
       $("#shown").textContent = n;
@@ -149,11 +155,24 @@
       });
       if (sort === "az") r.sort(function (a, b) { return a.n.localeCompare(b.n); });
       else if (sort === "new") r.sort(function (a, b) { return b.i - a.i; });
+      else if (qw.length) {
+        /* relevance: a match in the face's own label beats a match that only comes from its collection's keywords */
+        var phrase = qw.join(" ");
+        var score = function (f) {
+          var n = f.n.toLowerCase(), t = f.t.toLowerCase(), lab = (L[f.c] + " " + f.c).toLowerCase(), sc = 0;
+          if (n.indexOf(phrase) > -1) sc += 6;
+          qw.forEach(function (w) { sc += n.indexOf(w) > -1 ? 3 : (t.indexOf(w) > -1 || lab.indexOf(w) > -1) ? 2 : 1; });
+          return sc;
+        };
+        r.sort(function (a, b) { return score(b) - score(a) || b.p - a.p || a.i - b.i; });
+      }
       else r.sort(function (a, b) { return b.p - a.p || a.i - b.i; });
       return r;
     };
     var renderFavs = function () {
-      var r = faces.filter(function (f) { return favs.has(f.t); });
+      var byText = {}; faces.forEach(function (f) { byText[f.t] = f; });
+      /* includes faces made in the generator, which are not in the library */
+      var r = Array.from(favs).map(function (t) { return byText[t] || { t: t, c: "custom", n: (window.KAO_EMOJI && window.KAO_EMOJI[t]) || "Your creation", p: 0, i: -1 }; });
       $("#favorites-grid").innerHTML = r.map(card).join("");
       $("#favorites-empty").classList.toggle("hidden", r.length > 0);
     };
@@ -193,4 +212,5 @@
     });
     render();
   } else { paintFavs(); }
+  window.KC = { paint: paintFavs, isFav: function (t) { return favs.has(t); } };
 })();

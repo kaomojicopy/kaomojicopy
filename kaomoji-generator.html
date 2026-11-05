@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f8f5ee" />
+  <title>Kaomoji Generator: Make Your Own Text Face (Free)</title>
+  <meta name="description" content="Build your own kaomoji by picking eyes, mouth, cheeks, arms and decorations. Copy it in one tap, or get a random kaomoji from the library. Free." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="canonical" href="https://kaomojicopy.github.io/kaomoji-generator.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Kaomoji Copy" />
+  <meta property="og:title" content="Kaomoji Generator: Make Your Own Text Face (Free)" />
+  <meta property="og:description" content="Build your own kaomoji by picking eyes, mouth, cheeks, arms and decorations. Copy it in one tap, or get a random kaomoji from the library. Free." />
+  <meta property="og:url" content="https://kaomojicopy.github.io/kaomoji-generator.html" />
+  <meta property="og:image" content="https://kaomojicopy.github.io/assets/img/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kaomoji Generator: Make Your Own Text Face (Free)" />
+  <meta name="twitter:description" content="Build your own kaomoji by picking eyes, mouth, cheeks, arms and decorations. Copy it in one tap, or get a random kaomoji from the library. Free." />
+  <meta name="twitter:image" content="https://kaomojicopy.github.io/assets/img/og-image.png" />
+  <script>try{var t=localStorage.getItem("kaomoji-copy-theme");if(!t&&window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)t="dark";if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Kaomoji Copy home"><span class="brand-mark">☺</span><span>kaomoji<span class="brand-light">copy</span></span></a>
+  <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+    <a class="" href="index.html#explore">Explore</a><a href="index.html#collections">Collections</a><a class="nav-active" href="kaomoji-generator.html">Generator <span class="nav-new">New</span></a><a href="index.html#favorites">My favorites <span id="favorite-count" class="tiny-count">0</span></a>
+  </nav>
+  <div class="header-actions"><a class="header-cta" href="index.html#explore">Find your face <span aria-hidden="true">↗</span></a><button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark theme" title="Light / dark theme">☾</button></div>
+  <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+</header>
+
+  <main id="top">
+    <div class="shell page-doc">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / Kaomoji generator</nav>
+      <h1>Kaomoji generator</h1>
+      <p class="lead">Make your own kaomoji by choosing a frame, eyes, a mouth, cheeks, arms, and a decoration. Copy your creation in one tap, save it to your favorites, or press the random button for a surprise.</p>
+      <section class="gen" aria-label="Kaomoji generator">
+        <div class="gen-preview">
+          <div id="gen-face" class="gen-face">(◕‿◕)</div>
+          <div class="gen-actions">
+            <button id="gen-copy" class="gen-btn gen-primary" type="button" data-copy="(◕‿◕)">Copy</button>
+            <button id="gen-fav" class="gen-btn" type="button" data-favorite="(◕‿◕)" aria-pressed="false" aria-label="Add to favorites" title="Save to favorites">♡</button>
+            <button id="gen-random-parts" class="gen-btn" type="button">Randomize parts</button>
+            <button id="gen-remove-decor" class="gen-btn" type="button">Remove decoration</button>
+            <button id="gen-clear" class="gen-btn" type="button">Clear all</button>
+            <button id="gen-reset" class="gen-btn" type="button">Reset</button>
+          </div>
+          <p id="gen-status" class="gen-status"></p>
+        </div>
+        <div id="gen-controls" class="gen-controls"></div>
+      </section>
+      <section class="gen-random">
+        <h2>Random kaomoji</h2>
+        <div class="gen-random-row">
+          <button id="gen-random-lib" class="gen-btn gen-primary" type="button">Random kaomoji</button>
+          <div id="gen-lib-face" class="gen-face small" aria-live="polite"></div>
+          <button id="gen-lib-copy" class="gen-btn" type="button" data-copy="" hidden>Copy</button>
+        </div>
+      </section>
+      <h2>How to use the kaomoji generator</h2><ul><li>Pick a frame, eyes, and a mouth. The face updates as you choose.</li><li>Choose None in any group to leave that part out, for a simpler face.</li><li>Add cheeks, arms, or a decoration if you want more personality. Remove decoration clears all three at once.</li><li>Press Randomize parts to shuffle everything, or Clear all to start from a blank face.</li><li>Tap Copy to copy the face, or the heart to save it to your favorites.</li></ul>
+      <h2>How the parts fit together</h2><p>The generator puts the pieces in a fixed order: arms, frame, cheeks, eyes, mouth, eyes again, cheeks again, the closing frame, arms, and finally the decoration. That is the same pattern most kaomoji follow. To learn what each symbol does, read our list of <a href="kaomoji-symbols.html">kaomoji symbols</a>.</p>
+      <h2>Tips for a good custom kaomoji</h2><ul><li>Match the mood: round eyes and a small mouth look cute, while ಠ eyes and a flat mouth look stern.</li><li>Keep it short. One decoration is usually enough.</li><li>Test the face in your app, since some symbols may look different there.</li><li>Not sure where to start? Browse <a href="kaomoji/cute.html">cute kaomoji</a>, <a href="kaomoji/happy.html">happy kaomoji</a>, or <a href="kaomoji/aesthetic.html">aesthetic kaomoji</a> and change one part.</li></ul>
+      <h2>Random kaomoji from the library</h2><p>The Random kaomoji button picks a ready-made face from our library, so you can discover styles you would not search for. Press it as many times as you like and copy the ones you enjoy. You can also go to the <a href="index.html">homepage</a> and press Surprise me.</p>
+    </div>
+  </main>
+<footer class="site-footer">
+  <div class="shell footer-main"><a class="brand" href="index.html"><span class="brand-mark">☺</span><span>kaomoji<span class="brand-light">copy</span></span></a><p>A tiny internet corner for all the things<br>you don't know how to put into words.</p><div class="footer-links"><a href="index.html#explore">Explore</a><a href="index.html#collections">Collections</a><a href="index.html#favorites">Favorites</a><a href="what-is-kaomoji.html">What is kaomoji?</a><a href="japanese-emoticons.html">Japanese emoticons</a><a href="how-to-copy-and-paste-kaomoji.html">How to copy</a><a href="emoji-copy-and-paste.html">Emoji copy and paste</a><a href="kaomoji-generator.html">Kaomoji generator</a><a href="kaomoji-symbols.html">Kaomoji symbols</a><a href="kaomoji-for-discord-instagram-tiktok.html">Where to use kaomoji</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div>
+  <div class="shell footer-bottom"><span>Made for the little feelings. <span class="footer-heart">♥</span></span><span>© 2026 Kaomoji Copy</span></div>
+</footer>
+<div class="toast" id="toast" aria-hidden="true"></div>
+<div class="sr-only" id="announcer" role="status" aria-live="polite" aria-atomic="true"></div>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/parts.js"></script>
+<script src="assets/js/generator.js"></script>
+</body>
+</html>

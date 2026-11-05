@@ -20,22 +20,25 @@
 {{header}}
   <main id="top">
     <div class="shell">
-      <nav class="crumbs" aria-label="Breadcrumb"><a href="{{root}}index.html">Home</a> / <a href="{{root}}index.html#explore">Kaomoji</a> / {{label}}</nav>
+      <nav class="crumbs" aria-label="Breadcrumb">{{crumbs}}</nav>
       <section class="cat-hero">
-        <p class="eyebrow">KAOMOJI COLLECTION</p>
+        <p class="eyebrow">{{eyebrow}}</p>
         <h1>{{h1}}</h1>
         {{intro}}
       </section>
       <div class="cat-tools">
-        <div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="filter" type="search" placeholder="Filter {{label_lc}} faces..." autocomplete="off" aria-label="Filter these faces" /></div>
-        <span class="count"><span id="shown">{{count}}</span> little faces. Tap one to copy.</span>
+        <div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="filter" type="search" placeholder="{{filter_ph}}..." autocomplete="off" aria-label="{{filter_ph}}" /></div>
+        <span class="count"><span id="shown">{{count}}</span> {{unit}}. Tap one to copy.</span>
       </div>
-      <div class="kaomoji-grid cat-grid" id="kaomoji-grid" data-page="category">
+      <div class="kaomoji-grid cat-grid {{grid_extra}}" id="kaomoji-grid" data-page="category">
 {{cards}}
       </div>
       <p class="nomatch hidden" id="nomatch">Nothing matches that. Try a shorter word, or pick another collection below. <button class="text-link" id="clear-filter" type="button">Clear filter</button></p>
     </div>
-    <section class="shell page-sec"><h2>More feelings</h2><div class="pills">{{pills}}</div></section>
+    {{sections}}
+    {{related}}
+    {{learn}}
+    <section class="shell page-sec"><h2>{{pills_title}}</h2><div class="pills">{{pills}}</div></section>
     {{faq}}
   </main>
 {{footer}}
