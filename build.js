@@ -17,7 +17,7 @@ const faces = JSON.parse(rd("data/faces.json")); // [face, category, note, popul
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const fill = (t, v) => t.replace(/\{\{(\w+)\}\}/g, (m, k) => (v[k] !== undefined ? v[k] : m));
 /* long-form content: [text](/path.html) links are turned into relative links for the page they appear on */
-const inline = (s, root) => esc(s).replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, (m, t, u) => `<a href="${root}${u.slice(1)}">${t}</a>`);
+const inline = (s, root) => esc(s).replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, (m, t, u) => { const p = u.replace(/^\/index\.html/, "/").slice(1); return `<a href="${p === "" || p[0] === "#" ? (root || "./") + p : root + p}">${t}</a>`; });
 const paras = (s, root) => String(s).split(/\n\n/).map(p => `<p>${inline(p, root)}</p>`).join("");
 const table = t => `<div class="table-wrap"><table><thead><tr>${t.head.map(h => `<th scope="col">${esc(h)}</th>`).join("")}</tr></thead><tbody>${t.rows.map(r => `<tr>${r.map((c, i) => `<td${i === 0 ? ' class="sym"' : ""}>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
 const block = (x, root) => `<h2>${esc(x.h)}</h2>` + (x.p ? paras(x.p, root) : "") + (x.list ? `<ul>${x.list.map(i => `<li>${inline(i, root)}</li>`).join("")}</ul>` : "") + (x.table ? table(x.table) : "");
@@ -59,12 +59,13 @@ if (base) {
 }
 const basePath = base ? new URL(base).pathname.replace(/\/?$/, "/") : "/";
 const year = site.year || new Date().getFullYear();
-const part = (name, root, extra) => fill(rd("templates/" + name + ".html"), Object.assign({ root, year, explore_cls: "", gen_cls: "" }, extra || {}));
-const meta = (title, desc, p) => {
+const part = (name, root, extra) => fill(rd("templates/" + name + ".html"), Object.assign({ root, home: root || "./", year, explore_cls: "", gen_cls: "" }, extra || {}));
+const meta = (title, desc, p, kws) => {
   const t = esc(title), d = esc(desc), url = esc(base + p);
   const img = base ? esc(base + "/" + (site.ogImage || "assets/img/og-image.png")) : "";
   return [
     base && `<link rel="canonical" href="${url}" />`,
+    kws && `<meta name="keywords" content="${esc(kws)}" />`,
     `<meta property="og:type" content="website" />`,
     `<meta property="og:site_name" content="${esc(site.name || "Kaomoji Copy")}" />`,
     `<meta property="og:title" content="${t}" />`,
@@ -96,6 +97,10 @@ const emit = (rel, html) => {
 const card = (f, extra) => `          <article class="kaomoji-card" data-text="${esc((f[2] + " " + f[0]).toLowerCase())}" data-kw="${esc((typeof extra === "string" ? extra : "").toLowerCase())}"><button class="favorite-btn" type="button" data-favorite="${esc(f[0])}" aria-pressed="false" aria-label="Add ${esc(f[0])} to favorites">♡</button><button class="kaomoji-face" type="button" data-copy="${esc(f[0])}" aria-label="Copy ${esc(f[0])}">${esc(f[0])}</button><span class="card-tag">${esc(f[2])}</span><span class="card-copy" aria-hidden="true">copy ↗</span></article>`;
 
 /* homepage */
+/* Organization structured data (homepage only): name, url, logo, description and, when set, profiles and contact email */
+const orgLd = !base ? "" : `<script type="application/ld+json">${JSON.stringify(Object.assign({ "@context": "https://schema.org", "@type": "Organization", "@id": base + "/#organization", name: site.name || "Kaomoji Copy", url: base + "/",
+  logo: { "@type": "ImageObject", url: base + "/" + (site.logo || "assets/img/logo.png"), width: 512, height: 512 }, image: base + "/" + (site.ogImage || "assets/img/og-image.png"), description: site.homeDescription },
+  site.githubRepo ? { sameAs: [site.githubRepo] } : {}, site.contactEmail ? { email: site.contactEmail, contactPoint: { "@type": "ContactPoint", contactType: "customer support", email: site.contactEmail, url: base + "/contact.html" } } : {}))}</script>`;
 const homeData = JSON.parse(rd("data/home.json")), homeFaq = homeData.faq;
 const bySlug = Object.fromEntries(allCats.map(c => [c.slug, c]));
 /* internal linking blocks shown on every collection page */
@@ -113,16 +118,17 @@ cats.forEach(c => {
   side += `<button class="side-link" data-mood="${c.slug}" type="button"><span>${esc(c.icon)}</span> ${esc(c.side || c.label)}</button>`;
 });
 emit("index.html", fill(rd("templates/home.html"), {
-  meta: meta(site.homeTitle, site.homeDescription, "/"), title: esc(site.homeTitle), description: esc(site.homeDescription), header: part("header", "", { explore_cls: "nav-active" }), footer: part("footer", ""),
+  meta: meta(site.homeTitle, site.homeDescription, "/", site.keywords), title: esc(site.homeTitle), description: esc(site.homeDescription), header: part("header", "", { explore_cls: "nav-active" }), footer: part("footer", ""),
   moods, side, cards: top.map(card).join("\n"), count: faces.length, sections: prose(homeData.sections, ""),
   catlinks: cats.map(c => `<a href="kaomoji/${c.slug}.html">${esc(c.label)}</a>`).join(""),
   faq: homeFaq.map(x => `<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join(""),
-  jsonld: faqLd(homeFaq)
+  emojilinks: emojiCats.map(c => `<a href="emoji/${c.slug}.html">${esc(c.label)}</a>`).join(""),
+  jsonld: orgLd + faqLd(homeFaq)
 }));
 
 /* category pages: kaomoji/ and emoji/ */
 ["kaomoji", "emoji"].forEach(d => { fs.mkdirSync(path.join(OUT, d), { recursive: true }); fs.readdirSync(path.join(OUT, d)).forEach(f => f.endsWith(".html") && fs.unlinkSync(path.join(OUT, d, f))); });
-const emojiLearnHtml = `<section class="shell page-sec"><h2>New here?</h2><div class="related-grid"><a class="related-card" href="../emoji-copy-and-paste.html"><strong>All emoji collections</strong><span>Browse emoji by feeling</span></a><a class="related-card" href="../index.html"><strong>Kaomoji collections</strong><span>Text faces to copy and paste</span></a><a class="related-card" href="../kaomoji-generator.html"><strong>Kaomoji generator</strong><span>Make your own text face</span></a><a class="related-card" href="../what-is-kaomoji.html"><strong>What is kaomoji?</strong><span>Emoji, emoticons and kaomoji compared</span></a></div></section>`;
+const emojiLearnHtml = `<section class="shell page-sec"><h2>New here?</h2><div class="related-grid"><a class="related-card" href="../emoji-copy-and-paste.html"><strong>All emoji collections</strong><span>Browse emoji by feeling</span></a><a class="related-card" href="../"><strong>Kaomoji collections</strong><span>Text faces to copy and paste</span></a><a class="related-card" href="../kaomoji-generator.html"><strong>Kaomoji generator</strong><span>Make your own text face</span></a><a class="related-card" href="../what-is-kaomoji.html"><strong>What is kaomoji?</strong><span>Emoji, emoticons and kaomoji compared</span></a></div></section>`;
 const tpl = rd("templates/category.html");
 const header = part("header", "../"), footer = part("footer", "../");
 allCats.forEach(c => {
@@ -134,7 +140,7 @@ allCats.forEach(c => {
   const intro = paras(c.intro || `Browse ${list.length} ${lc} ${dir}. Tap any one to copy it, then paste it anywhere.`, "../");
   const faq = c.faq || [];
   emit(`${dir}/${c.slug}.html`, fill(tpl, {
-    root: "../", crumbs: isEmoji ? `<a href="../index.html">Home</a> / <a href="../emoji-copy-and-paste.html">Emoji</a> / ${esc(c.label)}` : `<a href="../index.html">Home</a> / <a href="../index.html#explore">Kaomoji</a> / ${esc(c.label)}`,
+    root: "../", crumbs: isEmoji ? `<a href="../">Home</a> / <a href="../emoji-copy-and-paste.html">Emoji</a> / ${esc(c.label)}` : `<a href="../">Home</a> / <a href="../#explore">Kaomoji</a> / ${esc(c.label)}`,
     eyebrow: isEmoji ? "EMOJI COLLECTION" : "KAOMOJI COLLECTION", filter_ph: isEmoji ? "Filter these emoji" : "Filter these faces", unit: isEmoji ? "emoji" : "little faces",
     grid_extra: isEmoji ? "emoji-grid" : "", pills_title: isEmoji ? "More emoji collections" : "More feelings", title: esc(title), description: esc(desc), h1: esc(c.h1 || `${c.label} kaomoji`),
     label: esc(c.label), label_lc: esc(lc), intro, sections: prose(c.sections, "../"), related: relatedHtml(c), learn: isEmoji ? emojiLearnHtml : learnHtml, count: list.length, cards: list.map(f => card(f, c.label + " " + (c.keywords || ""))).join("\n"),
@@ -142,7 +148,7 @@ allCats.forEach(c => {
     faq: faq.length ? `<section class="shell page-sec faq"><h2>Questions</h2>` + faq.map(x => `<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join("") + `</section>` : "",
     jsonld: faq.length ? `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage",
       mainEntity: faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) })}</script>` : "",
-    header, footer, meta: meta(title, desc, `/${dir}/${c.slug}.html`)
+    header, footer, meta: meta(title, desc, `/${dir}/${c.slug}.html`, c.keywordsMeta || [String(c.h1 || `${c.label} kaomoji`).toLowerCase(), isEmoji ? `${lc} copy and paste` : "kaomoji copy and paste", isEmoji ? "emoji copy and paste" : "text faces", isEmoji ? "emoji meanings" : "japanese emoticons"].join(", "))
   }));
 });
 
@@ -152,32 +158,32 @@ allCats.forEach(c => {
   const faqH = emojiHub.faq || [];
   const cardsH = emojiCats.map(o => `<a class="related-card" href="emoji/${o.slug}.html"><strong>${esc(o.label)}</strong><span>${esc(o.blurb || "")}</span></a>`).join("");
   emit("emoji-copy-and-paste.html", fill(tpl, {
-    root: "", crumbs: `<a href="index.html">Home</a> / Emoji`, eyebrow: "EMOJI COPY AND PASTE", filter_ph: "Filter these emoji", unit: "popular emoji", grid_extra: "emoji-grid",
+    root: "", crumbs: `<a href="./">Home</a> / Emoji`, eyebrow: "EMOJI COPY AND PASTE", filter_ph: "Filter these emoji", unit: "popular emoji", grid_extra: "emoji-grid",
     pills_title: "Kaomoji collections", title: esc(emojiHub.title), description: esc(emojiHub.description), h1: esc(emojiHub.h1), label: "Emoji", label_lc: "emoji",
     intro: paras(emojiHub.intro, ""), sections: `<section class="shell page-sec"><h2>Emoji by feeling</h2><div class="related-grid">${cardsH}</div></section>` + prose(emojiHub.sections, ""),
     related: "", learn: "", count: hubList.length, cards: hubList.map(f => card(f, "emoji")).join("\n"),
     pills: cats.map(o => `<a href="kaomoji/${o.slug}.html">${esc(o.label)}</a>`).join(""),
     faq: faqH.length ? `<section class="shell page-sec faq"><h2>Questions</h2>` + faqH.map(x => `<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join("") + `</section>` : "",
     jsonld: faqH.length ? `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqH.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) })}</script>` : "",
-    header: part("header", ""), footer: part("footer", ""), meta: meta(emojiHub.title, emojiHub.description, "/emoji-copy-and-paste.html")
+    header: part("header", ""), footer: part("footer", ""), meta: meta(emojiHub.title, emojiHub.description, "/emoji-copy-and-paste.html", emojiHub.keywords)
   }));
 }
 
 
 /* info pages: about, contact, privacy, terms */
 const infoPages = [
-  ["about", "About Kaomoji Copy | Free Kaomoji Copy and Paste", "About Kaomoji Copy, a free site for finding, copying, and pasting kaomoji text faces sorted by mood.", "About"],
-  ["contact", "Contact Kaomoji Copy", "Contact Kaomoji Copy with questions, bug reports, or ideas for new kaomoji and collections.", "Contact"],
-  ["privacy", "Privacy Policy | Kaomoji Copy", "How Kaomoji Copy handles information: no accounts, favorites stored in your browser, and no ads or analytics at this time.", "Privacy Policy"],
-  ["terms", "Terms of Use | Kaomoji Copy", "Simple terms for using Kaomoji Copy, a free kaomoji copy and paste site.", "Terms of Use"]
+  ["about", "About Kaomoji Copy | Free Kaomoji Copy and Paste", "About Kaomoji Copy, a free site for finding, copying, and pasting kaomoji text faces sorted by mood.", "About", "about kaomoji copy, kaomoji website, free kaomoji, kaomoji copy and paste, text faces by mood"],
+  ["contact", "Contact Kaomoji Copy: Questions, Bugs and Ideas", "Contact Kaomoji Copy with questions, bug reports, or ideas for new kaomoji and collections.", "Contact", "contact kaomoji copy, kaomoji feedback, report a bug, suggest a kaomoji, kaomoji website contact"],
+  ["privacy", "Privacy Policy | Kaomoji Copy", "How Kaomoji Copy handles information: no accounts, favorites stored in your browser, and no ads or analytics at this time.", "Privacy Policy", "kaomoji copy privacy policy, privacy policy, no ads, no accounts, favorites stored in browser"],
+  ["terms", "Terms of Use | Kaomoji Copy", "Simple terms for using Kaomoji Copy, a free kaomoji copy and paste site.", "Terms of Use", "kaomoji copy terms of use, terms of use, free kaomoji website, terms and conditions"]
 ];
 const contactBlock = [
   site.contactEmail ? `      <p>Email: <a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a></p>` : "",
   site.githubRepo ? `      <p>You can also open an issue on <a href="${esc(site.githubRepo)}/issues">our GitHub page</a>.</p>` : ""
 ].filter(Boolean).join("\n");
-infoPages.forEach(([slug, title, desc, label]) => {
+infoPages.forEach(([slug, title, desc, label, kws]) => {
   const content = fill(rd(`templates/pages/${slug}.html`), { name: site.name || "Kaomoji Copy", count: faces.length, catcount: cats.length, contact_block: contactBlock });
-  emit(`${slug}.html`, fill(rd("templates/page.html"), { title: esc(title), description: esc(desc), meta: meta(title, desc, `/${slug}.html`),
+  emit(`${slug}.html`, fill(rd("templates/page.html"), { title: esc(title), description: esc(desc), meta: meta(title, desc, `/${slug}.html`, kws),
     header: part("header", ""), footer: part("footer", ""), crumb: esc(label), h1: esc(label === "About" ? "About Kaomoji Copy" : label), content }));
 });
 
@@ -185,14 +191,14 @@ infoPages.forEach(([slug, title, desc, label]) => {
 const guides = JSON.parse(rd("data/guides.json"));
 guides.forEach(g => {
   const content = `      <p class="lead">${inline(g.lead, "")}</p>\n` + g.sections.map(x => "      " + block(x, "")).join("\n");
-  emit(`${g.slug}.html`, fill(rd("templates/page.html"), { title: esc(g.title), description: esc(g.description), meta: meta(g.title, g.description, `/${g.slug}.html`),
+  emit(`${g.slug}.html`, fill(rd("templates/page.html"), { title: esc(g.title), description: esc(g.description), meta: meta(g.title, g.description, `/${g.slug}.html`, g.keywords),
     header: part("header", ""), footer: part("footer", ""), crumb: esc(g.crumb || g.h1), h1: esc(g.h1), content }));
 });
 
 /* kaomoji generator tool page */
 const gen = JSON.parse(rd("data/generator.json"));
 wr("assets/js/parts.js", "/* AUTO-GENERATED by build.js from data/parts.json */\nwindow.KAO_PARTS=" + JSON.stringify(JSON.parse(rd("data/parts.json"))) + ";\n");
-emit("kaomoji-generator.html", fill(rd("templates/generator.html"), { title: esc(gen.title), description: esc(gen.description), meta: meta(gen.title, gen.description, "/kaomoji-generator.html"),
+emit("kaomoji-generator.html", fill(rd("templates/generator.html"), { title: esc(gen.title), description: esc(gen.description), meta: meta(gen.title, gen.description, "/kaomoji-generator.html", gen.keywords),
   header: part("header", "", { gen_cls: "nav-active" }), footer: part("footer", ""), crumb: esc(gen.crumb), h1: esc(gen.h1), lead: inline(gen.lead, ""), content: gen.sections.map(x => "      " + block(x, "")).join("\n") }));
 
 /* GitHub Pages extras */

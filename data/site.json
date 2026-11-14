@@ -1,9 +1,11 @@
 {
  "name": "Kaomoji Copy",
- "siteUrl": "https://kaomojicopy.github.io",
+ "siteUrl": "https://kaomojicopy.netlify.app",
  "year": 2026,
- "homeTitle": "Kaomoji Copy and Paste: Cute Japanese Text Faces & Emoticons",
+ "homeTitle": "Kaomoji Copy and Paste: Cute Japanese Text Faces",
  "homeDescription": "Copy and paste cute kaomojis, Japanese emoticons and text faces. Browse by mood, tap a face to copy it, and save favorites on your device. Free, no sign-up.",
+ "keywords": "kaomoji, kaomoji copy and paste, japanese emoticons, text faces, cute kaomoji, emoticons copy paste, kawaii faces",
+ "logo": "assets/img/logo.png",
  "ogImage": "assets/img/og-image.png",
  "contactEmail": "",
  "githubRepo": "https://github.com/kaomojicopy/kaomojicopy.github.io"
