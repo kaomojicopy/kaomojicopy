@@ -12,6 +12,13 @@
 # so it updates by itself when you attach a custom domain. To force an address, set SITE_URL in
 # Netlify: Site configuration > Environment variables.
 
+# Keep links exactly as written. With "Pretty URLs" on, Netlify rewrites every internal link from /about.html to /about,
+# while the canonical tag and sitemap say /about.html. Crawlers then see no links to the canonical URLs ("Canonical URL has no incoming internal links").
+[build.processing]
+  skip_processing = false
+[build.processing.html]
+  pretty_urls = false
+
 [[headers]]
   for = "/*"
   [headers.values]
